@@ -1,6 +1,6 @@
 site_name: Learn Agentic AI
-#site_url: https://<username>.github.io/learn-agentic-ai/
-#repo_url: https://github.com/<username>/learn-agentic-ai
+site_url: https://rasoulasadiyan.github.io/docs/
+repo_url: https://github.com/rasoulasadiyan/docs
 docs_dir: docs
 theme:
   name: material
