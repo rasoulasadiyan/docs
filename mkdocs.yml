@@ -1,955 +1,1113 @@
-site_name: Learn Agentic AI
-site_url: https://rasoulasadiyan.github.io/docs/
-repo_url: https://github.com/rasoulasadiyan/docs
-docs_dir: docs
+site_name: learn agentic ai
+#site_url: https://rasoulasadiyan.github.io/docs/
+#repo_url: https://github.com/rasoulasadiyan/docs
+
 theme:
   name: material
+  
 nav:
+- -01_lets_get_started:
+  - -01_lets_get_started: -01_lets_get_started/-01_lets_get_started.md
+  - 00_which_llm: -01_lets_get_started/00_which_llm.md
+  - 01_which_agentic_framework: -01_lets_get_started/01_which_agentic_framework.md
+  - 02_prompts_by_examples: -01_lets_get_started/02_prompts_by_examples.md
+  - 03_from_llms_to_stateful_long_runningl_multi_agents:
+    - 03_from_llms_to_stateful_long_runningl_multi_agents: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_01_what_are_multi_agent_systems: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_01_what_are_multi_agent_systems.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02a_email_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02a_email_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02b_supply_chain_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02b_supply_chain_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02c_patient_monitoring_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02c_patient_monitoring_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02d_financial_trading_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02d_financial_trading_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02e_personalized_learning_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02e_personalized_learning_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02f_blook_bank_erp_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02f_blook_bank_erp_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02g_shopping_cart_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02g_shopping_cart_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02h_social_media_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02h_social_media_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02i_customer_acquisition_management_agent_architecture: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02i_customer_acquisition_management_agent_architecture.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_02j_other_areas: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02j_other_areas.md
+    - 03_from_llms_to_stateful_long_runningl_multi_agents_03_technology_stack: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_03_technology_stack.md
 - 00_openai_agents:
-  - 00_python_syntax.md: 00_openai_agents/00_python_syntax.md
+  - 00_python_syntax: 00_openai_agents/00_python_syntax.md
   - 18_deployment:
     - 02_advanced_config:
-      - chainlit.md: 00_openai_agents/18_deployment/02_advanced_config/02_advanced_config_chainlit.md
       - 02_advanced_config: 00_openai_agents/18_deployment/02_advanced_config/02_advanced_config.md
-      - chainlit.md: 00_openai_agents/18_deployment/02_chainlit_custom_config/02_chainlit_custom_config_chainlit.md
+      - 02_advanced_config_chainlit: 00_openai_agents/18_deployment/02_advanced_config/02_advanced_config_chainlit.md
+    - 02_chainlit_custom_config:
       - 02_chainlit_custom_config: 00_openai_agents/18_deployment/02_chainlit_custom_config/02_chainlit_custom_config.md
-    - 03_docker_basics.md: 00_openai_agents/18_deployment/03_docker_basics.md
-    - 04_docker_huggingface.md: 00_openai_agents/18_deployment/04_docker_huggingface.md
+      - 02_chainlit_custom_config_chainlit: 00_openai_agents/18_deployment/02_chainlit_custom_config/02_chainlit_custom_config_chainlit.md
+    - 03_docker_basics: 00_openai_agents/18_deployment/03_docker_basics.md
+    - 04_docker_huggingface: 00_openai_agents/18_deployment/04_docker_huggingface.md
     - 18_deployment: 00_openai_agents/18_deployment/18_deployment.md
-- 00_openai_api.md: 00_openai_api.md
+- 00_openai_api: 00_openai_api.md
 - 01_ai_agents_first:
-  - 00_swarm.md: 01_ai_agents_first/00_swarm.md
+  - 00_swarm: 01_ai_agents_first/00_swarm.md
   - 01_ai_agents_first: 01_ai_agents_first/01_ai_agents_first.md
   - 01_uv:
     - 01_project:
       - 01_project: 01_ai_agents_first/01_uv/01_project/01_project.md
-      - explore-uv.md: 01_ai_agents_first/01_uv/01_project/explore-uv.md
+      - explore-uv: 01_ai_agents_first/01_uv/01_project/explore-uv.md
     - 01_uv: 01_ai_agents_first/01_uv/01_uv.md
-    - uv-project2.md: 01_ai_agents_first/01_uv/uv-project2.md
-  - 02_openrouter.md: 01_ai_agents_first/02_openrouter.md
+    - uv-project2: 01_ai_agents_first/01_uv/uv-project2.md
+  - 02_openrouter: 01_ai_agents_first/02_openrouter.md
   - 03_litellm_openai_agent:
     - 01_litellm:
       - 01_litellm: 01_ai_agents_first/03_litellm_openai_agent/01_litellm/01_litellm.md
-      - myproject.md: 01_ai_agents_first/03_litellm_openai_agent/01_litellm/myproject.md
+      - myproject: 01_ai_agents_first/03_litellm_openai_agent/01_litellm/myproject.md
+    - 02_uv_litellm_chainlite:
       - 02_uv_litellm_chainlite: 01_ai_agents_first/03_litellm_openai_agent/02_uv_litellm_chainlite/02_uv_litellm_chainlite.md
       - chatbot:
-        - chainlit.md: 01_ai_agents_first/03_litellm_openai_agent/02_uv_litellm_chainlite/chatbot/chatbot_chainlit.md
         - chatbot: 01_ai_agents_first/03_litellm_openai_agent/02_uv_litellm_chainlite/chatbot/chatbot.md
+        - chatbot_chainlit: 01_ai_agents_first/03_litellm_openai_agent/02_uv_litellm_chainlite/chatbot/chatbot_chainlit.md
     - 03_litellm_openai_agent: 01_ai_agents_first/03_litellm_openai_agent/03_litellm_openai_agent.md
+  - 04_hello_agent:
     - 04_hello_agent: 01_ai_agents_first/04_hello_agent/04_hello_agent.md
     - async:
-      - hello_agent.md: 01_ai_agents_first/04_hello_agent/async/hello_agent.md
-      - hello_agent.md: 01_ai_agents_first/04_hello_agent/sync/hello_agent.md
+      - hello_agent: 01_ai_agents_first/04_hello_agent/async/hello_agent.md
+    - sync:
+      - hello_agent: 01_ai_agents_first/04_hello_agent/sync/hello_agent.md
+  - 05_chainlit:
     - 05_chainlit: 01_ai_agents_first/05_chainlit/05_chainlit.md
     - helloworld:
-      - chainlit.md: 01_ai_agents_first/05_chainlit/helloworld/helloworld_chainlit.md
       - helloworld: 01_ai_agents_first/05_chainlit/helloworld/helloworld.md
-      - chainlit.md: 01_ai_agents_first/06_chatbot/chatbot/chatbot_chainlit.md
+      - helloworld_chainlit: 01_ai_agents_first/05_chainlit/helloworld/helloworld_chainlit.md
+  - 06_chatbot:
+    - chatbot:
       - chatbot: 01_ai_agents_first/06_chatbot/chatbot/chatbot.md
+      - chatbot_chainlit: 01_ai_agents_first/06_chatbot/chatbot/chatbot_chainlit.md
+  - 07_streaming:
     - 07_streaming: 01_ai_agents_first/07_streaming/07_streaming.md
     - chatbot-with-chainlite:
-      - chainlit.md: 01_ai_agents_first/07_streaming/chatbot-with-chainlite/chatbot-with-chainlite_chainlit.md
       - chatbot-with-chainlite: 01_ai_agents_first/07_streaming/chatbot-with-chainlite/chatbot-with-chainlite.md
+      - chatbot-with-chainlite_chainlit: 01_ai_agents_first/07_streaming/chatbot-with-chainlite/chatbot-with-chainlite_chainlit.md
+  - 08_tools:
     - 08_tools: 01_ai_agents_first/08_tools/08_tools.md
     - tools-with-chainlite:
-      - chainlit.md: 01_ai_agents_first/08_tools/tools-with-chainlite/tools-with-chainlite_chainlit.md
       - tools-with-chainlite: 01_ai_agents_first/08_tools/tools-with-chainlite/tools-with-chainlite.md
-      - chainlit.md: 01_ai_agents_first/08_tools/weather_agent/weather_agent_chainlit.md
+      - tools-with-chainlite_chainlit: 01_ai_agents_first/08_tools/tools-with-chainlite/tools-with-chainlite_chainlit.md
+    - weather_agent:
       - weather_agent: 01_ai_agents_first/08_tools/weather_agent/weather_agent.md
-    - weather_agent_class.md: 01_ai_agents_first/08_tools/weather_agent_class.md
+      - weather_agent_chainlit: 01_ai_agents_first/08_tools/weather_agent/weather_agent_chainlit.md
+    - weather_agent_class: 01_ai_agents_first/08_tools/weather_agent_class.md
+  - 09_agents_as_tool:
     - 09_agents_as_tool: 01_ai_agents_first/09_agents_as_tool/09_agents_as_tool.md
     - chatbot:
-      - chainlit.md: 01_ai_agents_first/09_agents_as_tool/chatbot/chatbot_chainlit.md
       - chatbot: 01_ai_agents_first/09_agents_as_tool/chatbot/chatbot.md
+      - chatbot_chainlit: 01_ai_agents_first/09_agents_as_tool/chatbot/chatbot_chainlit.md
+  - 10_context:
     - 10_context: 01_ai_agents_first/10_context/10_context.md
     - chatbot:
-      - chainlit.md: 01_ai_agents_first/10_context/chatbot/chatbot_chainlit.md
       - chatbot: 01_ai_agents_first/10_context/chatbot/chatbot.md
+      - chatbot_chainlit: 01_ai_agents_first/10_context/chatbot/chatbot_chainlit.md
+  - 11_handoffs:
     - 11_handoffs: 01_ai_agents_first/11_handoffs/11_handoffs.md
     - chatbot:
-      - chainlit.md: 01_ai_agents_first/11_handoffs/chatbot/chatbot_chainlit.md
       - chatbot: 01_ai_agents_first/11_handoffs/chatbot/chatbot.md
+      - chatbot_chainlit: 01_ai_agents_first/11_handoffs/chatbot/chatbot_chainlit.md
+  - 13_guardrails:
     - 13_guardrails: 01_ai_agents_first/13_guardrails/13_guardrails.md
     - chatbot:
-      - chainlit.md: 01_ai_agents_first/13_guardrails/chatbot/chatbot_chainlit.md
       - chatbot: 01_ai_agents_first/13_guardrails/chatbot/chatbot.md
-    - 01_Traces_locally.md: 01_ai_agents_first/14_tracing/01_Traces_locally.md
-    - 02_Traces_dashboard_Openai.md: 01_ai_agents_first/14_tracing/02_Traces_dashboard_Openai.md
-    - 03_Braintrust.md: 01_ai_agents_first/14_tracing/03_Braintrust.md
-    - 04_Pydantic_Logfire.md: 01_ai_agents_first/14_tracing/04_Pydantic_Logfire.md
-    - 05_AgentOps.md: 01_ai_agents_first/14_tracing/05_AgentOps.md
-    - 06_Keywords_AI.md: 01_ai_agents_first/14_tracing/06_Keywords_AI.md
-    - 07_Scorecard.md: 01_ai_agents_first/14_tracing/07_Scorecard.md
+      - chatbot_chainlit: 01_ai_agents_first/13_guardrails/chatbot/chatbot_chainlit.md
+  - 14_tracing:
+    - 01_Traces_locally: 01_ai_agents_first/14_tracing/01_Traces_locally.md
+    - 02_Traces_dashboard_Openai: 01_ai_agents_first/14_tracing/02_Traces_dashboard_Openai.md
+    - 03_Braintrust: 01_ai_agents_first/14_tracing/03_Braintrust.md
+    - 04_Pydantic_Logfire: 01_ai_agents_first/14_tracing/04_Pydantic_Logfire.md
+    - 05_AgentOps: 01_ai_agents_first/14_tracing/05_AgentOps.md
+    - 06_Keywords_AI: 01_ai_agents_first/14_tracing/06_Keywords_AI.md
+    - 07_Scorecard: 01_ai_agents_first/14_tracing/07_Scorecard.md
     - 14_tracing: 01_ai_agents_first/14_tracing/14_tracing.md
-  - 15_run_lifecycle.md: 01_ai_agents_first/15_run_lifecycle.md
-  - 16_agent_lifecycle.md: 01_ai_agents_first/16_agent_lifecycle.md
+  - 15_run_lifecycle: 01_ai_agents_first/15_run_lifecycle.md
+  - 16_agent_lifecycle: 01_ai_agents_first/16_agent_lifecycle.md
   - 17_memory:
-    - 00_rsi.md: 01_ai_agents_first/17_memory/00_rsi.md
-    - 01_langmem.md: 01_ai_agents_first/17_memory/01_langmem.md
+    - 00_rsi: 01_ai_agents_first/17_memory/00_rsi.md
+    - 01_langmem: 01_ai_agents_first/17_memory/01_langmem.md
     - 02_zep:
-      - readmd.md: 01_ai_agents_first/17_memory/02_zep/02_zep_readmd.md
+      - 02_zep_readmd: 01_ai_agents_first/17_memory/02_zep/02_zep_readmd.md
     - 17_memory: 01_ai_agents_first/17_memory/17_memory.md
-  - 18_Agentic_RAG.md: 01_ai_agents_first/18_Agentic_RAG.md
-  - 19_payments.md: 01_ai_agents_first/19_payments.md
-  - 20_projects.md: 01_ai_agents_first/20_projects.md
-  - 21_voice_mode.md: 01_ai_agents_first/21_voice_mode.md
-  - appendix_litellm.md: 01_ai_agents_first/appendix_litellm.md
-  - 00_which_llm.md: -01_lets_get_started/00_which_llm.md
-  - -01_lets_get_started: -01_lets_get_started/-01_lets_get_started.md
-  - 01_which_agentic_framework.md: -01_lets_get_started/01_which_agentic_framework.md
-  - 02_prompts_by_examples.md: -01_lets_get_started/02_prompts_by_examples.md
-  - 03_from_llms_to_stateful_long_runningl_multi_agents:
-    - 01_what_are_multi_agent_systems.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_01_what_are_multi_agent_systems.md
-    - 02a_email_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02a_email_agent_architecture.md
-    - 02_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02_architecture.md
-    - 02b_supply_chain_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02b_supply_chain_agent_architecture.md
-    - 02c_patient_monitoring_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02c_patient_monitoring_agent_architecture.md
-    - 02d_financial_trading_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02d_financial_trading_agent_architecture.md
-    - 02e_personalized_learning_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02e_personalized_learning_agent_architecture.md
-    - 02f_blook_bank_erp_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02f_blook_bank_erp_agent_architecture.md
-    - 02g_shopping_cart_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02g_shopping_cart_agent_architecture.md
-    - 02h_social_media_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02h_social_media_agent_architecture.md
-    - 02i_customer_acquisition_management_agent_architecture.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02i_customer_acquisition_management_agent_architecture.md
-    - 02j_other_areas.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_02j_other_areas.md
-    - 03_technology_stack.md: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents_03_technology_stack.md
-    - 03_from_llms_to_stateful_long_runningl_multi_agents: -01_lets_get_started/03_from_llms_to_stateful_long_runningl_multi_agents/03_from_llms_to_stateful_long_runningl_multi_agents.md
-  - 01_rise_of_agentic_ai.md: 02_agentic_foundations/01_rise_of_agentic_ai.md
+  - 18_Agentic_RAG: 01_ai_agents_first/18_Agentic_RAG.md
+  - 19_payments: 01_ai_agents_first/19_payments.md
+  - 20_projects: 01_ai_agents_first/20_projects.md
+  - 21_voice_mode: 01_ai_agents_first/21_voice_mode.md
+  - appendix_litellm: 01_ai_agents_first/appendix_litellm.md
+- 02_agentic_foundations:
+  - 01_rise_of_agentic_ai: 02_agentic_foundations/01_rise_of_agentic_ai.md
   - 02_technology_background:
-    - 00_prologue.md: 02_agentic_foundations/02_technology_background/00_prologue.md
-    - 01_what_is_a_gpu.md: 02_agentic_foundations/02_technology_background/01_what_is_a_gpu.md
-    - 02_blackwell_gpus.md: 02_agentic_foundations/02_technology_background/02_blackwell_gpus.md
-    - 03_cuda.md: 02_agentic_foundations/02_technology_background/03_cuda.md
-    - 04_tsmc.md: 02_agentic_foundations/02_technology_background/04_tsmc.md
-    - 05_agi.md: 02_agentic_foundations/02_technology_background/05_agi.md
-    - 06_compound_ai_systems.md: 02_agentic_foundations/02_technology_background/06_compound_ai_systems.md
-    - 07_agentic_ai_stack.md: 02_agentic_foundations/02_technology_background/07_agentic_ai_stack.md
-    - 08_next_wave_humaniods.md: 02_agentic_foundations/02_technology_background/08_next_wave_humaniods.md
-    - 09_cloud_and_edge.md: 02_agentic_foundations/02_technology_background/09_cloud_and_edge.md
-    - 10_microservices_ai_agents.md: 02_agentic_foundations/02_technology_background/10_microservices_ai_agents.md
-    - 11_ray.md: 02_agentic_foundations/02_technology_background/11_ray.md
-    - 12_ai_economics.md: 02_agentic_foundations/02_technology_background/12_ai_economics.md
-    - 13_agi_light_speed.md: 02_agentic_foundations/02_technology_background/13_agi_light_speed.md
-    - 00_getting_started_generative_ai.md: 02_agentic_foundations/03_generative_ai_for_beginners/00_getting_started_generative_ai.md
-    - 01_leaderboards.md: 02_agentic_foundations/03_generative_ai_for_beginners/01_leaderboards.md
+    - 00_prologue: 02_agentic_foundations/02_technology_background/00_prologue.md
+    - 01_what_is_a_gpu: 02_agentic_foundations/02_technology_background/01_what_is_a_gpu.md
+    - 02_blackwell_gpus: 02_agentic_foundations/02_technology_background/02_blackwell_gpus.md
+    - 03_cuda: 02_agentic_foundations/02_technology_background/03_cuda.md
+    - 04_tsmc: 02_agentic_foundations/02_technology_background/04_tsmc.md
+    - 05_agi: 02_agentic_foundations/02_technology_background/05_agi.md
+    - 06_compound_ai_systems: 02_agentic_foundations/02_technology_background/06_compound_ai_systems.md
+    - 07_agentic_ai_stack: 02_agentic_foundations/02_technology_background/07_agentic_ai_stack.md
+    - 08_next_wave_humaniods: 02_agentic_foundations/02_technology_background/08_next_wave_humaniods.md
+    - 09_cloud_and_edge: 02_agentic_foundations/02_technology_background/09_cloud_and_edge.md
+    - 10_microservices_ai_agents: 02_agentic_foundations/02_technology_background/10_microservices_ai_agents.md
+    - 11_ray: 02_agentic_foundations/02_technology_background/11_ray.md
+    - 12_ai_economics: 02_agentic_foundations/02_technology_background/12_ai_economics.md
+    - 13_agi_light_speed: 02_agentic_foundations/02_technology_background/13_agi_light_speed.md
+  - 03_generative_ai_for_beginners:
+    - 00_getting_started_generative_ai: 02_agentic_foundations/03_generative_ai_for_beginners/00_getting_started_generative_ai.md
+    - 01_leaderboards: 02_agentic_foundations/03_generative_ai_for_beginners/01_leaderboards.md
     - 02_genai_foundations:
-      - 00_neural_networks.md: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/00_neural_networks.md
-      - 01_descriminative_ai.md: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/01_descriminative_ai.md
+      - 00_neural_networks: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/00_neural_networks.md
+      - 01_descriminative_ai: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/01_descriminative_ai.md
       - 02_genai_foundations: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_genai_foundations.md
       - 02_generative_ai:
-        - 01_gans.md: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/01_gans.md
-        - 02_deffuser.md: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/02_deffuser.md
+        - 01_gans: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/01_gans.md
+        - 02_deffuser: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/02_deffuser.md
         - 02_generative_ai: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/02_generative_ai.md
-        - 03_transformers.md: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/03_transformers.md
-    - 03_prompt_engineering.md: 02_agentic_foundations/03_generative_ai_for_beginners/03_prompt_engineering.md
-    - 04_openai_canvas.md: 02_agentic_foundations/03_generative_ai_for_beginners/04_openai_canvas.md
-    - 05_advanced_voice_mode.md: 02_agentic_foundations/03_generative_ai_for_beginners/05_advanced_voice_mode.md
-    - 06_video_generation.md: 02_agentic_foundations/03_generative_ai_for_beginners/06_video_generation.md
-    - 07_compound_ai_systerms.md: 02_agentic_foundations/03_generative_ai_for_beginners/07_compound_ai_systerms.md
+        - 03_transformers: 02_agentic_foundations/03_generative_ai_for_beginners/02_genai_foundations/02_generative_ai/03_transformers.md
+    - 03_prompt_engineering: 02_agentic_foundations/03_generative_ai_for_beginners/03_prompt_engineering.md
+    - 04_openai_canvas: 02_agentic_foundations/03_generative_ai_for_beginners/04_openai_canvas.md
+    - 05_advanced_voice_mode: 02_agentic_foundations/03_generative_ai_for_beginners/05_advanced_voice_mode.md
+    - 06_video_generation: 02_agentic_foundations/03_generative_ai_for_beginners/06_video_generation.md
+    - 07_compound_ai_systerms: 02_agentic_foundations/03_generative_ai_for_beginners/07_compound_ai_systerms.md
     - 08_conversational_ai_as_next_browser:
       - 08_conversational_ai_as_next_browser: 02_agentic_foundations/03_generative_ai_for_beginners/08_conversational_ai_as_next_browser/08_conversational_ai_as_next_browser.md
-      - Transformation_of_Browsers.md: 02_agentic_foundations/03_generative_ai_for_beginners/08_conversational_ai_as_next_browser/08_conversational_ai_as_next_browser_Transformation_of_Browsers.md
-    - 09_ai_to_ai.md: 02_agentic_foundations/03_generative_ai_for_beginners/09_ai_to_ai.md
-    - 10_working_with_apps.md: 02_agentic_foundations/03_generative_ai_for_beginners/10_working_with_apps.md
-    - 00_markdown.md: 02_agentic_foundations/04_prompt_engineering/00_markdown.md
-    - 01_reasoners_prompt_engineering.md: 02_agentic_foundations/04_prompt_engineering/01_reasoners_prompt_engineering.md
-    - 02_intro_meta_prompting.md: 02_agentic_foundations/04_prompt_engineering/02_intro_meta_prompting.md
-    - 03_fixing_prompts.md: 02_agentic_foundations/04_prompt_engineering/03_fixing_prompts.md
+      - 08_conversational_ai_as_next_browser_Transformation_of_Browsers: 02_agentic_foundations/03_generative_ai_for_beginners/08_conversational_ai_as_next_browser/08_conversational_ai_as_next_browser_Transformation_of_Browsers.md
+    - 09_ai_to_ai: 02_agentic_foundations/03_generative_ai_for_beginners/09_ai_to_ai.md
+    - 10_working_with_apps: 02_agentic_foundations/03_generative_ai_for_beginners/10_working_with_apps.md
+  - 04_prompt_engineering:
+    - 00_markdown: 02_agentic_foundations/04_prompt_engineering/00_markdown.md
+    - 01_reasoners_prompt_engineering: 02_agentic_foundations/04_prompt_engineering/01_reasoners_prompt_engineering.md
+    - 02_intro_meta_prompting: 02_agentic_foundations/04_prompt_engineering/02_intro_meta_prompting.md
+    - 03_fixing_prompts: 02_agentic_foundations/04_prompt_engineering/03_fixing_prompts.md
     - 04_prompt_engineering: 02_agentic_foundations/04_prompt_engineering/04_prompt_engineering.md
-    - 04_reverse_metaprompting.md: 02_agentic_foundations/04_prompt_engineering/04_reverse_metaprompting.md
-    - 05_metaprompting_for_ai_agents.md: 02_agentic_foundations/04_prompt_engineering/05_metaprompting_for_ai_agents.md
-    - 06_personas_with_metaprompting.md: 02_agentic_foundations/04_prompt_engineering/06_personas_with_metaprompting.md
-    - 07_read_ai_mind_with_metaprompting.md: 02_agentic_foundations/04_prompt_engineering/07_read_ai_mind_with_metaprompting.md
-    - 08_test_driven_promot_engineering.md: 02_agentic_foundations/04_prompt_engineering/08_test_driven_promot_engineering.md
-    - 09_prompt_marketplace.md: 02_agentic_foundations/04_prompt_engineering/09_prompt_marketplace.md
-    - 10_stop_learning_prompt_engineering.md: 02_agentic_foundations/04_prompt_engineering/10_stop_learning_prompt_engineering.md
-    - 11_ultimate_2025_guide.md: 02_agentic_foundations/04_prompt_engineering/11_ultimate_2025_guide.md
-    - test_driven_promot_engineering.md: 02_agentic_foundations/04_prompt_engineering/test_driven_promot_engineering.md
-    - 00_defining_ai_agents.md: 02_agentic_foundations/05_ai_agents_intro/00_defining_ai_agents.md
-    - 01_evalution_ai_agents.md: 02_agentic_foundations/05_ai_agents_intro/01_evalution_ai_agents.md
-    - 02_agents_transform_saas.md: 02_agentic_foundations/05_ai_agents_intro/02_agents_transform_saas.md
-    - 03_economics_of_ai_agents.md: 02_agentic_foundations/05_ai_agents_intro/03_economics_of_ai_agents.md
-    - 04_rag_vs_agents.md: 02_agentic_foundations/05_ai_agents_intro/04_rag_vs_agents.md
+    - 04_reverse_metaprompting: 02_agentic_foundations/04_prompt_engineering/04_reverse_metaprompting.md
+    - 05_metaprompting_for_ai_agents: 02_agentic_foundations/04_prompt_engineering/05_metaprompting_for_ai_agents.md
+    - 06_personas_with_metaprompting: 02_agentic_foundations/04_prompt_engineering/06_personas_with_metaprompting.md
+    - 07_read_ai_mind_with_metaprompting: 02_agentic_foundations/04_prompt_engineering/07_read_ai_mind_with_metaprompting.md
+    - 08_test_driven_promot_engineering: 02_agentic_foundations/04_prompt_engineering/08_test_driven_promot_engineering.md
+    - 09_prompt_marketplace: 02_agentic_foundations/04_prompt_engineering/09_prompt_marketplace.md
+    - 10_stop_learning_prompt_engineering: 02_agentic_foundations/04_prompt_engineering/10_stop_learning_prompt_engineering.md
+    - 11_ultimate_2025_guide: 02_agentic_foundations/04_prompt_engineering/11_ultimate_2025_guide.md
+    - test_driven_promot_engineering: 02_agentic_foundations/04_prompt_engineering/test_driven_promot_engineering.md
+  - 05_ai_agents_intro:
+    - 00_defining_ai_agents: 02_agentic_foundations/05_ai_agents_intro/00_defining_ai_agents.md
+    - 01_evalution_ai_agents: 02_agentic_foundations/05_ai_agents_intro/01_evalution_ai_agents.md
+    - 02_agents_transform_saas: 02_agentic_foundations/05_ai_agents_intro/02_agents_transform_saas.md
+    - 03_economics_of_ai_agents: 02_agentic_foundations/05_ai_agents_intro/03_economics_of_ai_agents.md
+    - 04_rag_vs_agents: 02_agentic_foundations/05_ai_agents_intro/04_rag_vs_agents.md
     - 05_ai_agents_intro: 02_agentic_foundations/05_ai_agents_intro/05_ai_agents_intro.md
-    - 05_multi_agent_systems.md: 02_agentic_foundations/05_ai_agents_intro/05_multi_agent_systems.md
-    - 06_components_of_agents.md: 02_agentic_foundations/05_ai_agents_intro/06_components_of_agents.md
-    - 07_next_generation_architecture.md: 02_agentic_foundations/05_ai_agents_intro/07_next_generation_architecture.md
-    - 08_horizontals.md: 02_agentic_foundations/05_ai_agents_intro/08_horizontals.md
-    - 09_applications.md: 02_agentic_foundations/05_ai_agents_intro/09_applications.md
-    - 10_function_calling_leaderboard.md: 02_agentic_foundations/05_ai_agents_intro/10_function_calling_leaderboard.md
-    - 11_prompt_engineering_for_agentic_ai.md: 02_agentic_foundations/05_ai_agents_intro/11_prompt_engineering_for_agentic_ai.md
-    - 12_cost_to_build.md: 02_agentic_foundations/05_ai_agents_intro/12_cost_to_build.md
-    - 13_agentic_design_patterns.md: 02_agentic_foundations/05_ai_agents_intro/13_agentic_design_patterns.md
-  - 00_visual_guide.md: 03_design_patterns/03_design_patterns_00_visual_guide.md
+    - 05_multi_agent_systems: 02_agentic_foundations/05_ai_agents_intro/05_multi_agent_systems.md
+    - 06_components_of_agents: 02_agentic_foundations/05_ai_agents_intro/06_components_of_agents.md
+    - 07_next_generation_architecture: 02_agentic_foundations/05_ai_agents_intro/07_next_generation_architecture.md
+    - 08_horizontals: 02_agentic_foundations/05_ai_agents_intro/08_horizontals.md
+    - 09_applications: 02_agentic_foundations/05_ai_agents_intro/09_applications.md
+    - 10_function_calling_leaderboard: 02_agentic_foundations/05_ai_agents_intro/10_function_calling_leaderboard.md
+    - 11_prompt_engineering_for_agentic_ai: 02_agentic_foundations/05_ai_agents_intro/11_prompt_engineering_for_agentic_ai.md
+    - 12_cost_to_build: 02_agentic_foundations/05_ai_agents_intro/12_cost_to_build.md
+    - 13_agentic_design_patterns: 02_agentic_foundations/05_ai_agents_intro/13_agentic_design_patterns.md
+- 03_design_patterns:
   - 03_design_patterns: 03_design_patterns/03_design_patterns.md
+  - 03_design_patterns_00_visual_guide: 03_design_patterns/03_design_patterns_00_visual_guide.md
+- 04_daca_agent_native_dev:
   - 00_concepts_strategies_technologies:
     - 00_concepts_strategies_technologies: 04_daca_agent_native_dev/00_concepts_strategies_technologies/00_concepts_strategies_technologies.md
-    - 00_what_is_cloud_native.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/00_what_is_cloud_native.md
-    - 01_agent_native_clouds.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/01_agent_native_clouds.md
-    - 02_containers.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/02_containers.md
-    - 03_kubernetes.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/03_kubernetes.md
-    - 04_helm.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/04_helm.md
-    - 05_dapr.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/05_dapr.md
-    - 06_dapr_for_agentic_ai.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/06_dapr_for_agentic_ai.md
-    - 07_argon_cd.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/07_argon_cd.md
-    - 08_cloud_anywhere.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/08_cloud_anywhere.md
-    - 08_observability.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/08_observability.md
-    - 09_open_core_managed_edges.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/09_open_core_managed_edges.md
+    - 00_what_is_cloud_native: 04_daca_agent_native_dev/00_concepts_strategies_technologies/00_what_is_cloud_native.md
+    - 01_agent_native_clouds: 04_daca_agent_native_dev/00_concepts_strategies_technologies/01_agent_native_clouds.md
+    - 02_containers: 04_daca_agent_native_dev/00_concepts_strategies_technologies/02_containers.md
+    - 03_kubernetes: 04_daca_agent_native_dev/00_concepts_strategies_technologies/03_kubernetes.md
+    - 04_helm: 04_daca_agent_native_dev/00_concepts_strategies_technologies/04_helm.md
+    - 05_dapr: 04_daca_agent_native_dev/00_concepts_strategies_technologies/05_dapr.md
+    - 06_dapr_for_agentic_ai: 04_daca_agent_native_dev/00_concepts_strategies_technologies/06_dapr_for_agentic_ai.md
+    - 07_argon_cd: 04_daca_agent_native_dev/00_concepts_strategies_technologies/07_argon_cd.md
+    - 08_cloud_anywhere: 04_daca_agent_native_dev/00_concepts_strategies_technologies/08_cloud_anywhere.md
+    - 08_observability: 04_daca_agent_native_dev/00_concepts_strategies_technologies/08_observability.md
+    - 09_open_core_managed_edges: 04_daca_agent_native_dev/00_concepts_strategies_technologies/09_open_core_managed_edges.md
     - 10_cloud_design_patterns:
-      - 01_actor_model.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/10_cloud_design_patterns/01_actor_model.md
-      - 02_workflows.md: 04_daca_agent_native_dev/00_concepts_strategies_technologies/10_cloud_design_patterns/02_workflows.md
+      - 01_actor_model: 04_daca_agent_native_dev/00_concepts_strategies_technologies/10_cloud_design_patterns/01_actor_model.md
+      - 02_workflows: 04_daca_agent_native_dev/00_concepts_strategies_technologies/10_cloud_design_patterns/02_workflows.md
       - 10_cloud_design_patterns: 04_daca_agent_native_dev/00_concepts_strategies_technologies/10_cloud_design_patterns/10_cloud_design_patterns.md
+  - 01_intro_fastapi:
+    - 01_hello_fastapi:
       - 01_hello_fastapi: 04_daca_agent_native_dev/01_intro_fastapi/01_hello_fastapi/01_hello_fastapi.md
-      - fastdca-p1.md: 04_daca_agent_native_dev/01_intro_fastapi/01_hello_fastapi/fastdca-p1.md
+      - fastdca-p1: 04_daca_agent_native_dev/01_intro_fastapi/01_hello_fastapi/fastdca-p1.md
     - 01_intro_fastapi: 04_daca_agent_native_dev/01_intro_fastapi/01_intro_fastapi.md
     - 02_pydantic_validation:
       - 02_pydantic_validation: 04_daca_agent_native_dev/01_intro_fastapi/02_pydantic_validation/02_pydantic_validation.md
-      - fastdca_p1.md: 04_daca_agent_native_dev/01_intro_fastapi/02_pydantic_validation/fastdca_p1.md
+      - fastdca_p1: 04_daca_agent_native_dev/01_intro_fastapi/02_pydantic_validation/fastdca_p1.md
+    - 03_api_parameters:
       - 03_api_parameters: 04_daca_agent_native_dev/01_intro_fastapi/03_api_parameters/03_api_parameters.md
-      - fastdca_p1.md: 04_daca_agent_native_dev/01_intro_fastapi/03_api_parameters/fastdca_p1.md
+      - fastdca_p1: 04_daca_agent_native_dev/01_intro_fastapi/03_api_parameters/fastdca_p1.md
+    - 04_dependency_injection:
       - 04_dependency_injection: 04_daca_agent_native_dev/01_intro_fastapi/04_dependency_injection/04_dependency_injection.md
-      - fastdca_p1.md: 04_daca_agent_native_dev/01_intro_fastapi/04_dependency_injection/fastdca_p1.md
+      - fastdca_p1: 04_daca_agent_native_dev/01_intro_fastapi/04_dependency_injection/fastdca_p1.md
+    - 05_pytest:
       - 02_pydantic_validation:
         - 02_pydantic_validation: 04_daca_agent_native_dev/01_intro_fastapi/05_pytest/02_pydantic_validation/02_pydantic_validation.md
-        - fastdca_p1.md: 04_daca_agent_native_dev/01_intro_fastapi/05_pytest/02_pydantic_validation/fastdca_p1.md
+        - fastdca_p1: 04_daca_agent_native_dev/01_intro_fastapi/05_pytest/02_pydantic_validation/fastdca_p1.md
       - 05_pytest: 04_daca_agent_native_dev/01_intro_fastapi/05_pytest/05_pytest.md
+    - 06_openai_agents_with_fastapi:
       - 06_openai_agents_with_fastapi: 04_daca_agent_native_dev/01_intro_fastapi/06_openai_agents_with_fastapi/06_openai_agents_with_fastapi.md
-      - fastapi-daca-tutorial.md: 04_daca_agent_native_dev/01_intro_fastapi/06_openai_agents_with_fastapi/fastapi-daca-tutorial.md
-    - 00_yaml_tutorial.md: 04_daca_agent_native_dev/02_agent_native_cloud_setup/00_yaml_tutorial.md
-    - 01_rancher_installation.md: 04_daca_agent_native_dev/02_agent_native_cloud_setup/01_rancher_installation.md
+      - fastapi-daca-tutorial: 04_daca_agent_native_dev/01_intro_fastapi/06_openai_agents_with_fastapi/fastapi-daca-tutorial.md
+  - 02_agent_native_cloud_setup:
+    - 00_yaml_tutorial: 04_daca_agent_native_dev/02_agent_native_cloud_setup/00_yaml_tutorial.md
+    - 01_rancher_installation: 04_daca_agent_native_dev/02_agent_native_cloud_setup/01_rancher_installation.md
     - 02_agent_native_cloud_setup: 04_daca_agent_native_dev/02_agent_native_cloud_setup/02_agent_native_cloud_setup.md
     - 02_hello_containers:
       - 02_hello_containers: 04_daca_agent_native_dev/02_agent_native_cloud_setup/02_hello_containers/02_hello_containers.md
-      - daca_agent.md: 04_daca_agent_native_dev/02_agent_native_cloud_setup/02_hello_containers/daca_agent.md
-    - 03_kubernetes_basics.md: 04_daca_agent_native_dev/02_agent_native_cloud_setup/03_kubernetes_basics.md
-    - 04_helm_basics.md: 04_daca_agent_native_dev/02_agent_native_cloud_setup/04_helm_basics.md
-    - 01_dapr_helm.md: 04_daca_agent_native_dev/03_dapr_intro/01_dapr_helm.md
+      - daca_agent: 04_daca_agent_native_dev/02_agent_native_cloud_setup/02_hello_containers/daca_agent.md
+    - 03_kubernetes_basics: 04_daca_agent_native_dev/02_agent_native_cloud_setup/03_kubernetes_basics.md
+    - 04_helm_basics: 04_daca_agent_native_dev/02_agent_native_cloud_setup/04_helm_basics.md
+  - 03_dapr_intro:
+    - 01_dapr_helm: 04_daca_agent_native_dev/03_dapr_intro/01_dapr_helm.md
     - 02_fastapi_dapr:
       - 02_fastapi_dapr: 04_daca_agent_native_dev/03_dapr_intro/02_fastapi_dapr/02_fastapi_dapr.md
-      - hello_dapr_fastapi.md: 04_daca_agent_native_dev/03_dapr_intro/02_fastapi_dapr/hello_dapr_fastapi.md
+      - hello_dapr_fastapi: 04_daca_agent_native_dev/03_dapr_intro/02_fastapi_dapr/hello_dapr_fastapi.md
     - 03_dapr_intro: 04_daca_agent_native_dev/03_dapr_intro/03_dapr_intro.md
     - 03_hot_reloading:
       - 01_tilt_fastapi:
         - 01_tilt_fastapi: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/01_tilt_fastapi/01_tilt_fastapi.md
-        - hello_fastapi.md: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/01_tilt_fastapi/hello_fastapi.md
-      - 02_tilt_dapr.md: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/02_tilt_dapr.md
+        - hello_fastapi: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/01_tilt_fastapi/hello_fastapi.md
+      - 02_tilt_dapr: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/02_tilt_dapr.md
       - 03_hot_reloading: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/03_hot_reloading.md
       - 03_microservice_with_sidecar:
         - 03_microservice_with_sidecar: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/03_microservice_with_sidecar/03_microservice_with_sidecar.md
-        - hello_fastapi.md: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/03_microservice_with_sidecar/hello_fastapi.md
+        - hello_fastapi: 04_daca_agent_native_dev/03_dapr_intro/03_hot_reloading/03_microservice_with_sidecar/hello_fastapi.md
+    - 04_dapr_sdk:
       - 04_dapr_sdk: 04_daca_agent_native_dev/03_dapr_intro/04_dapr_sdk/04_dapr_sdk.md
-      - hello_fastapi.md: 04_daca_agent_native_dev/03_dapr_intro/04_dapr_sdk/hello_fastapi.md
+      - hello_fastapi: 04_daca_agent_native_dev/03_dapr_intro/04_dapr_sdk/hello_fastapi.md
   - 04_daca_agent_native_dev: 04_daca_agent_native_dev/04_daca_agent_native_dev.md
   - 04_security_fundamentals:
-    - 00_lab_starter_code.md: 04_daca_agent_native_dev/04_security_fundamentals/00_lab_starter_code.md
+    - 00_lab_starter_code: 04_daca_agent_native_dev/04_security_fundamentals/00_lab_starter_code.md
     - 01_configmaps:
       - 01_configmaps: 04_daca_agent_native_dev/04_security_fundamentals/01_configmaps/01_configmaps.md
-      - hello_secure_aiapp.md: 04_daca_agent_native_dev/04_security_fundamentals/01_configmaps/hello_secure_aiapp.md
+      - hello_secure_aiapp: 04_daca_agent_native_dev/04_security_fundamentals/01_configmaps/hello_secure_aiapp.md
+    - 02_k8_secrets:
       - 02_k8_secrets: 04_daca_agent_native_dev/04_security_fundamentals/02_k8_secrets/02_k8_secrets.md
-      - hello_secure_aiapp.md: 04_daca_agent_native_dev/04_security_fundamentals/02_k8_secrets/hello_secure_aiapp.md
-    - 03_api_endpoint_security.md: 04_daca_agent_native_dev/04_security_fundamentals/03_api_endpoint_security.md
-    - 04_dapr_secrets.md: 04_daca_agent_native_dev/04_security_fundamentals/04_dapr_secrets.md
+      - hello_secure_aiapp: 04_daca_agent_native_dev/04_security_fundamentals/02_k8_secrets/hello_secure_aiapp.md
+    - 03_api_endpoint_security: 04_daca_agent_native_dev/04_security_fundamentals/03_api_endpoint_security.md
+    - 04_dapr_secrets: 04_daca_agent_native_dev/04_security_fundamentals/04_dapr_secrets.md
     - 04_security_fundamentals: 04_daca_agent_native_dev/04_security_fundamentals/04_security_fundamentals.md
-    - 00_lab_starter_code.md: 04_daca_agent_native_dev/05_agent_actors/00_lab_starter_code.md
+  - 05_agent_actors:
+    - 00_lab_starter_code: 04_daca_agent_native_dev/05_agent_actors/00_lab_starter_code.md
     - 01_hello_actors:
       - 01_hello_actors: 04_daca_agent_native_dev/05_agent_actors/01_hello_actors/01_hello_actors.md
-      - hello_actors_lab.md: 04_daca_agent_native_dev/05_agent_actors/01_hello_actors/hello_actors_lab.md
+      - hello_actors_lab: 04_daca_agent_native_dev/05_agent_actors/01_hello_actors/hello_actors_lab.md
+    - 02_chat_actor:
       - 02_chat_actor: 04_daca_agent_native_dev/05_agent_actors/02_chat_actor/02_chat_actor.md
-      - chat_actor_lab.md: 04_daca_agent_native_dev/05_agent_actors/02_chat_actor/chat_actor_lab.md
+      - chat_actor_lab: 04_daca_agent_native_dev/05_agent_actors/02_chat_actor/chat_actor_lab.md
+    - 03_actors_communication:
       - 03_actors_communication: 04_daca_agent_native_dev/05_agent_actors/03_actors_communication/03_actors_communication.md
-      - actors_communication_lab.md: 04_daca_agent_native_dev/05_agent_actors/03_actors_communication/actors_communication_lab.md
+      - actors_communication_lab: 04_daca_agent_native_dev/05_agent_actors/03_actors_communication/actors_communication_lab.md
+    - 04_advanced_actor_config:
       - 01_actor_timers:
         - 01_actor_timers: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/01_actor_timers/01_actor_timers.md
-        - timers_lab.md: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/01_actor_timers/timers_lab.md
+        - timers_lab: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/01_actor_timers/timers_lab.md
+      - 02_actor_reminders:
         - 02_actor_reminders: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/02_actor_reminders/02_actor_reminders.md
-        - timers_lab.md: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/02_actor_reminders/timers_lab.md
+        - timers_lab: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/02_actor_reminders/timers_lab.md
+      - 03_actor_reentrancy:
         - 03_actor_reentrancy: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/03_actor_reentrancy/03_actor_reentrancy.md
-        - reentrancy_lab.md: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/03_actor_reentrancy/reentrancy_lab.md
+        - reentrancy_lab: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/03_actor_reentrancy/reentrancy_lab.md
       - 04_advanced_actor_config: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/04_advanced_actor_config.md
       - 04_runtime_config:
         - 04_runtime_config: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/04_runtime_config/04_runtime_config.md
-        - runtime_config_lab.md: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/04_runtime_config/runtime_config_lab.md
+        - runtime_config_lab: 04_daca_agent_native_dev/05_agent_actors/04_advanced_actor_config/04_runtime_config/runtime_config_lab.md
+    - 05_actors_observability:
       - 05_actors_observability: 04_daca_agent_native_dev/05_agent_actors/05_actors_observability/05_actors_observability.md
-      - ob_lab.md: 04_daca_agent_native_dev/05_agent_actors/05_actors_observability/ob_lab.md
+      - ob_lab: 04_daca_agent_native_dev/05_agent_actors/05_actors_observability/ob_lab.md
     - 05_agent_actors: 04_daca_agent_native_dev/05_agent_actors/05_agent_actors.md
     - 06_event_driven_actors:
       - 01_pubsub:
-        - 01_hello_pubsub_lab.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/01_hello_pubsub_lab.md
+        - 01_hello_pubsub_lab: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/01_hello_pubsub_lab.md
         - 01_pubsub: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/01_pubsub.md
         - 02_multi_consumers_lab:
-          - con-two.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/02_multi_consumers_lab/con-two.md
-          - pubsub-app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/02_multi_consumers_lab/pubsub-app.md
+          - con-two: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/02_multi_consumers_lab/con-two.md
+          - pubsub-app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/02_multi_consumers_lab/pubsub-app.md
+        - 03_advanced_qna_challenge:
           - 03_advanced_qna_challenge: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/03_advanced_qna_challenge.md
-          - learning_analytics_app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/learning_analytics_app.md
-          - memory_app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/memory_app.md
-          - student_interaction_app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/student_interaction_app.md
-          - teacher_support_app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/teacher_support_app.md
-          - callee-service.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/01_hello_call_lab/callee-service.md
-          - caller-service.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/01_hello_call_lab/caller-service.md
-          - callee-service.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/02_resilence_call_lab/callee-service.md
-          - caller-service.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/02_resilence_call_lab/caller-service.md
+          - learning_analytics_app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/learning_analytics_app.md
+          - memory_app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/memory_app.md
+          - student_interaction_app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/student_interaction_app.md
+          - teacher_support_app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/01_pubsub/03_advanced_qna_challenge/teacher_support_app.md
+      - 02_service_invocation:
+        - 01_hello_call_lab:
+          - callee-service: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/01_hello_call_lab/callee-service.md
+          - caller-service: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/01_hello_call_lab/caller-service.md
+        - 02_resilence_call_lab:
+          - callee-service: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/02_resilence_call_lab/callee-service.md
+          - caller-service: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/02_resilence_call_lab/caller-service.md
         - 02_service_invocation: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/02_service_invocation/02_service_invocation.md
+      - 03_dapr_bindings:
         - 00_starter_code_binding_labs:
-          - hello-actor-app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/00_starter_code_binding_labs/hello-actor-app.md
-          - hello-actor-app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/01_hello_input_lab/hello-actor-app.md
-          - hello-actor-app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/02_hello_output_lab/hello-actor-app.md
+          - hello-actor-app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/00_starter_code_binding_labs/hello-actor-app.md
+        - 01_hello_input_lab:
+          - hello-actor-app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/01_hello_input_lab/hello-actor-app.md
+        - 02_hello_output_lab:
+          - hello-actor-app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/02_hello_output_lab/hello-actor-app.md
         - 03_dapr_bindings: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/03_dapr_bindings.md
         - 03_postgres_lab:
-          - hello-actor-app.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/03_postgres_lab/hello-actor-app.md
+          - hello-actor-app: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/03_dapr_bindings/03_postgres_lab/hello-actor-app.md
+      - 04_jobs:
         - 04_jobs: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/04_jobs/04_jobs.md
-        - jobs_lab.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/04_jobs/jobs_lab.md
+        - jobs_lab: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/04_jobs/jobs_lab.md
+      - 05_protobuf_serialization:
         - 05_protobuf_serialization: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/05_protobuf_serialization/05_protobuf_serialization.md
-        - ser_lab.md: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/05_protobuf_serialization/ser_lab.md
+        - ser_lab: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/05_protobuf_serialization/ser_lab.md
       - 06_event_driven_actors: 04_daca_agent_native_dev/05_agent_actors/06_event_driven_actors/06_event_driven_actors.md
+    - 07_daca_actor_runtime:
       - 01_actor_foundation:
         - 01_actor_foundation: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/01_actor_foundation/01_actor_foundation.md
-        - ambient-actor.md: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/01_actor_foundation/ambient-actor.md
+        - ambient-actor: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/01_actor_foundation/ambient-actor.md
+      - 02_base_agent_actor:
         - 02_base_agent_actor: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/02_base_agent_actor/02_base_agent_actor.md
-        - ambient-actor.md: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/02_base_agent_actor/ambient-actor.md
+        - ambient-actor: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/02_base_agent_actor/ambient-actor.md
       - 07_daca_actor_runtime: 04_daca_agent_native_dev/05_agent_actors/07_daca_actor_runtime/07_daca_actor_runtime.md
+  - 06_dapr_workflows:
+    - 00_starter-code:
       - 00_starter-code: 04_daca_agent_native_dev/06_dapr_workflows/00_starter-code/00_starter-code.md
-      - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/00_starter-code/daca-workflow.md
+      - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/00_starter-code/daca-workflow.md
+    - 01_hello_workflow:
       - 01_hello_workflow: 04_daca_agent_native_dev/06_dapr_workflows/01_hello_workflow/01_hello_workflow.md
       - hello-workflow-code:
-        - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/01_hello_workflow/hello-workflow-code/daca-workflow.md
+        - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/01_hello_workflow/hello-workflow-code/daca-workflow.md
         - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/01_hello_workflow/hello-workflow-code/hello-workflow-code.md
-    - 02_architecture_theory.md: 04_daca_agent_native_dev/06_dapr_workflows/02_architecture_theory.md
+    - 02_architecture_theory: 04_daca_agent_native_dev/06_dapr_workflows/02_architecture_theory.md
     - 03_author_workflows:
       - 03_author_workflows: 04_daca_agent_native_dev/06_dapr_workflows/03_author_workflows/03_author_workflows.md
       - author-workflow-code:
         - author-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/03_author_workflows/author-workflow-code/author-workflow-code.md
-        - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/03_author_workflows/author-workflow-code/daca-workflow.md
+        - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/03_author_workflows/author-workflow-code/daca-workflow.md
+    - 04_manage_workflows:
       - 04_manage_workflows: 04_daca_agent_native_dev/06_dapr_workflows/04_manage_workflows/04_manage_workflows.md
       - code:
         - code: 04_daca_agent_native_dev/06_dapr_workflows/04_manage_workflows/code/code.md
-        - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/04_manage_workflows/code/daca-workflow.md
+        - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/04_manage_workflows/code/daca-workflow.md
+    - 05_patterns:
+      - 01_task_chaining:
         - 01_hello_workflow:
           - 01_hello_workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/01_task_chaining/01_hello_workflow/01_hello_workflow.md
           - hello-workflow-code:
-            - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/01_task_chaining/01_hello_workflow/hello-workflow-code/daca-workflow.md
+            - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/01_task_chaining/01_hello_workflow/hello-workflow-code/daca-workflow.md
             - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/01_task_chaining/01_hello_workflow/hello-workflow-code/hello-workflow-code.md
         - 01_task_chaining: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/01_task_chaining/01_task_chaining.md
+      - 02_fan_in_out:
         - 02_fan_in_out: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/02_fan_in_out/02_fan_in_out.md
         - hello-workflow-code:
-          - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/02_fan_in_out/hello-workflow-code/daca-workflow.md
+          - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/02_fan_in_out/hello-workflow-code/daca-workflow.md
           - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/02_fan_in_out/hello-workflow-code/hello-workflow-code.md
+      - 03_async_http_apis:
         - 03_async_http_apis: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/03_async_http_apis/03_async_http_apis.md
         - hello-workflow-code:
-          - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/03_async_http_apis/hello-workflow-code/daca-workflow.md
+          - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/03_async_http_apis/hello-workflow-code/daca-workflow.md
           - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/03_async_http_apis/hello-workflow-code/hello-workflow-code.md
+      - 04_monitor:
         - 04_monitor: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/04_monitor/04_monitor.md
         - hello-workflow-code:
-          - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/04_monitor/hello-workflow-code/daca-workflow.md
+          - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/04_monitor/hello-workflow-code/daca-workflow.md
           - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/04_monitor/hello-workflow-code/hello-workflow-code.md
+      - 05_external_system_interaction:
         - 05_external_system_interaction: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/05_external_system_interaction/05_external_system_interaction.md
         - hello-workflow-code:
-          - daca-workflow.md: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/05_external_system_interaction/hello-workflow-code/daca-workflow.md
+          - daca-workflow: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/05_external_system_interaction/hello-workflow-code/daca-workflow.md
           - hello-workflow-code: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/05_external_system_interaction/hello-workflow-code/hello-workflow-code.md
       - 05_patterns: 04_daca_agent_native_dev/06_dapr_workflows/05_patterns/05_patterns.md
-    - 06_ai_pizza_shop.md: 04_daca_agent_native_dev/06_dapr_workflows/06_ai_pizza_shop.md
+    - 06_ai_pizza_shop: 04_daca_agent_native_dev/06_dapr_workflows/06_ai_pizza_shop.md
     - 06_dapr_workflows: 04_daca_agent_native_dev/06_dapr_workflows/06_dapr_workflows.md
-    - 01_oauth2_authentication.md: 04_daca_agent_native_dev/07_security_advanced/01_oauth2_authentication.md
-    - 02_mtls_and_certificate_rotation.md: 04_daca_agent_native_dev/07_security_advanced/02_mtls_and_certificate_rotation.md
-    - 03_kubernetes_rbac_and_network_policies.md: 04_daca_agent_native_dev/07_security_advanced/03_kubernetes_rbac_and_network_policies.md
-    - 04_actor_security.md: 04_daca_agent_native_dev/07_security_advanced/04_actor_security.md
+  - 07_security_advanced:
+    - 01_oauth2_authentication: 04_daca_agent_native_dev/07_security_advanced/01_oauth2_authentication.md
+    - 02_mtls_and_certificate_rotation: 04_daca_agent_native_dev/07_security_advanced/02_mtls_and_certificate_rotation.md
+    - 03_kubernetes_rbac_and_network_policies: 04_daca_agent_native_dev/07_security_advanced/03_kubernetes_rbac_and_network_policies.md
+    - 04_actor_security: 04_daca_agent_native_dev/07_security_advanced/04_actor_security.md
+  - 08_performance_optimization:
     - 08_performance_optimization: 04_daca_agent_native_dev/08_performance_optimization/08_performance_optimization.md
-    - a2a_daca_challenge.md: 04_daca_agent_native_dev/08_performance_optimization/a2a_daca_challenge.md
-    - 01_databases.md: 04_daca_agent_native_dev/backup/01_databases.md
+    - a2a_daca_challenge: 04_daca_agent_native_dev/08_performance_optimization/a2a_daca_challenge.md
+  - backup:
+    - 01_databases: 04_daca_agent_native_dev/backup/01_databases.md
     - 02_microservices_with_fastapi:
       - 02_microservices_with_fastapi: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/02_microservices_with_fastapi.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/fastapi-daca-tutorial/chat-service.md
         - fastapi-daca-tutorial: 04_daca_agent_native_dev/backup/02_microservices_with_fastapi/fastapi-daca-tutorial/fastapi-daca-tutorial.md
+    - 03_dapr_state_management:
       - 03_dapr_state_management: 04_daca_agent_native_dev/backup/03_dapr_state_management/03_dapr_state_management.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/03_dapr_state_management/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/03_dapr_state_management/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/03_dapr_state_management/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/03_dapr_state_management/fastapi-daca-tutorial/chat-service.md
+    - 04_service_invocation:
       - 04_service_invocation: 04_daca_agent_native_dev/backup/04_service_invocation/04_service_invocation.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/04_service_invocation/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/04_service_invocation/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/04_service_invocation/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/04_service_invocation/fastapi-daca-tutorial/chat-service.md
+    - 06_dapr_pubsub_messaging:
       - 06_dapr_pubsub_messaging: 04_daca_agent_native_dev/backup/06_dapr_pubsub_messaging/06_dapr_pubsub_messaging.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/06_dapr_pubsub_messaging/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/06_dapr_pubsub_messaging/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/06_dapr_pubsub_messaging/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/06_dapr_pubsub_messaging/fastapi-daca-tutorial/chat-service.md
+    - 07_dapr_secrets_management:
       - 07_dapr_secrets_management: 04_daca_agent_native_dev/backup/07_dapr_secrets_management/07_dapr_secrets_management.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/07_dapr_secrets_management/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/07_dapr_secrets_management/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/07_dapr_secrets_management/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/07_dapr_secrets_management/fastapi-daca-tutorial/chat-service.md
+    - 08_dapr_observability:
       - 08_dapr_observability: 04_daca_agent_native_dev/backup/08_dapr_observability/08_dapr_observability.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/08_dapr_observability/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/08_dapr_observability/fastapi-daca-tutorial/chat-service.md
-    - 09_daca_hitl.md: 04_daca_agent_native_dev/backup/09_daca_hitl.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/08_dapr_observability/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/08_dapr_observability/fastapi-daca-tutorial/chat-service.md
+    - 09_daca_hitl: 04_daca_agent_native_dev/backup/09_daca_hitl.md
     - 10_hello_dapr_actors:
       - 10_hello_dapr_actors: 04_daca_agent_native_dev/backup/10_hello_dapr_actors/10_hello_dapr_actors.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/10_hello_dapr_actors/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/10_hello_dapr_actors/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/10_hello_dapr_actors/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/10_hello_dapr_actors/fastapi-daca-tutorial/chat-service.md
+    - 11_hello_dapr_workflows:
       - 11_hello_dapr_workflows: 04_daca_agent_native_dev/backup/11_hello_dapr_workflows/11_hello_dapr_workflows.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/11_hello_dapr_workflows/fastapi-daca-tutorial/agent_memory_service.md
-        - chat-service.md: 04_daca_agent_native_dev/backup/11_hello_dapr_workflows/fastapi-daca-tutorial/chat-service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/11_hello_dapr_workflows/fastapi-daca-tutorial/agent_memory_service.md
+        - chat-service: 04_daca_agent_native_dev/backup/11_hello_dapr_workflows/fastapi-daca-tutorial/chat-service.md
+    - 12_relational_sqlmodel:
       - 12_relational_sqlmodel: 04_daca_agent_native_dev/backup/12_relational_sqlmodel/12_relational_sqlmodel.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/12_relational_sqlmodel/fastapi-daca-tutorial/agent_memory_service.md
-        - chat_service.md: 04_daca_agent_native_dev/backup/12_relational_sqlmodel/fastapi-daca-tutorial/chat_service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/12_relational_sqlmodel/fastapi-daca-tutorial/agent_memory_service.md
+        - chat_service: 04_daca_agent_native_dev/backup/12_relational_sqlmodel/fastapi-daca-tutorial/chat_service.md
+    - 13_dapr_local_deployment:
       - 13_dapr_local_deployment: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/13_dapr_local_deployment.md
       - fastapi-daca-tutorial:
-        - agent_memory_service.md: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/fastapi-daca-tutorial/agent_memory_service.md
-        - chat_service.md: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/fastapi-daca-tutorial/chat_service.md
+        - agent_memory_service: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/fastapi-daca-tutorial/agent_memory_service.md
+        - chat_service: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/fastapi-daca-tutorial/chat_service.md
+      - rancher:
         - fastapi-daca-tutorial:
-          - agent_memory_service.md: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/rancher/fastapi-daca-tutorial/agent_memory_service.md
-          - chat-service.md: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/rancher/fastapi-daca-tutorial/chat-service.md
+          - agent_memory_service: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/rancher/fastapi-daca-tutorial/agent_memory_service.md
+          - chat-service: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/rancher/fastapi-daca-tutorial/chat-service.md
         - rancher: 04_daca_agent_native_dev/backup/13_dapr_local_deployment/rancher/rancher.md
     - backup: 04_daca_agent_native_dev/backup/backup.md
     - experimental:
       - 01_cryptography:
         - 01_cryptography: 04_daca_agent_native_dev/backup/experimental/01_cryptography/01_cryptography.md
-        - cryptography_lab.md: 04_daca_agent_native_dev/backup/experimental/01_cryptography/cryptography_lab.md
+        - cryptography_lab: 04_daca_agent_native_dev/backup/experimental/01_cryptography/cryptography_lab.md
+      - 01_state_encryption:
         - 01_state_encryption: 04_daca_agent_native_dev/backup/experimental/01_state_encryption/01_state_encryption.md
-        - state_encryption_lab.md: 04_daca_agent_native_dev/backup/experimental/01_state_encryption/state_encryption_lab.md
-      - 02_pluggable_components.md: 04_daca_agent_native_dev/backup/experimental/02_pluggable_components.md
-      - 03_kafka_bindings.md: 04_daca_agent_native_dev/backup/experimental/03_kafka_bindings.md
+        - state_encryption_lab: 04_daca_agent_native_dev/backup/experimental/01_state_encryption/state_encryption_lab.md
+      - 02_pluggable_components: 04_daca_agent_native_dev/backup/experimental/02_pluggable_components.md
+      - 03_kafka_bindings: 04_daca_agent_native_dev/backup/experimental/03_kafka_bindings.md
       - 06_transactional outbox pattern:
         - 06_transactional outbox pattern: 04_daca_agent_native_dev/backup/experimental/06_transactional
             outbox pattern/06_transactional outbox pattern.md
         - hello-workflow-code:
-          - daca-workflow.md: 04_daca_agent_native_dev/backup/experimental/06_transactional
+          - daca-workflow: 04_daca_agent_native_dev/backup/experimental/06_transactional
               outbox pattern/hello-workflow-code/daca-workflow.md
           - hello-workflow-code: 04_daca_agent_native_dev/backup/experimental/06_transactional
               outbox pattern/hello-workflow-code/hello-workflow-code.md
-    - 01_base: 05_ai_protocols/01_base/01_base.md
+- 05_ai_protocols:
+  - 01_base:
     - 01_IP:
       - 01_IP: 05_ai_protocols/01_base/01_IP/01_IP.md
-      - ip_hands_on.md: 05_ai_protocols/01_base/01_IP/ip_hands_on.md
+      - ip_hands_on: 05_ai_protocols/01_base/01_IP/ip_hands_on.md
+    - 01_base: 05_ai_protocols/01_base/01_base.md
+    - 02_TCP:
       - 02_TCP: 05_ai_protocols/01_base/02_TCP/02_TCP.md
-      - tcp_code.md: 05_ai_protocols/01_base/02_TCP/tcp_code.md
+      - tcp_code: 05_ai_protocols/01_base/02_TCP/tcp_code.md
+    - 03_UDP:
       - 03_UDP: 05_ai_protocols/01_base/03_UDP/03_UDP.md
-      - udp_code.md: 05_ai_protocols/01_base/03_UDP/udp_code.md
+      - udp_code: 05_ai_protocols/01_base/03_UDP/udp_code.md
+    - 04_QUIC:
       - 04_QUIC: 05_ai_protocols/01_base/04_QUIC/04_QUIC.md
-      - quic_code.md: 05_ai_protocols/01_base/04_QUIC/quic_code.md
-    - 05_HTTP_Theory.md: 05_ai_protocols/01_base/05_HTTP_Theory.md
+      - quic_code: 05_ai_protocols/01_base/04_QUIC/quic_code.md
+    - 05_HTTP_Theory: 05_ai_protocols/01_base/05_HTTP_Theory.md
     - 06_HTTP2:
       - 06_HTTP2: 05_ai_protocols/01_base/06_HTTP2/06_HTTP2.md
-      - http_code.md: 05_ai_protocols/01_base/06_HTTP2/http_code.md
-    - 07_HTTP3.md: 05_ai_protocols/01_base/07_HTTP3.md
+      - http_code: 05_ai_protocols/01_base/06_HTTP2/http_code.md
+    - 07_HTTP3: 05_ai_protocols/01_base/07_HTTP3.md
     - 08_REST:
       - 08_REST: 05_ai_protocols/01_base/08_REST/08_REST.md
-      - rest_code.md: 05_ai_protocols/01_base/08_REST/rest_code.md
+      - rest_code: 05_ai_protocols/01_base/08_REST/rest_code.md
+    - 09_SSE:
       - 09_SSE: 05_ai_protocols/01_base/09_SSE/09_SSE.md
-      - python_sse.md: 05_ai_protocols/01_base/09_SSE/python_sse.md
+      - python_sse: 05_ai_protocols/01_base/09_SSE/python_sse.md
+    - 10_Streamable_HTTP:
       - 10_Streamable_HTTP: 05_ai_protocols/01_base/10_Streamable_HTTP/10_Streamable_HTTP.md
-      - sth.md: 05_ai_protocols/01_base/10_Streamable_HTTP/sth.md
+      - sth: 05_ai_protocols/01_base/10_Streamable_HTTP/sth.md
+    - 11_JSON_RPC:
       - 11_JSON_RPC: 05_ai_protocols/01_base/11_JSON_RPC/11_JSON_RPC.md
-      - json_rpc_code.md: 05_ai_protocols/01_base/11_JSON_RPC/json_rpc_code.md
+      - json_rpc_code: 05_ai_protocols/01_base/11_JSON_RPC/json_rpc_code.md
+    - 12_gRPC:
       - 12_gRPC: 05_ai_protocols/01_base/12_gRPC/12_gRPC.md
-      - grpc-tutorial.md: 05_ai_protocols/01_base/12_gRPC/grpc-tutorial.md
-      - hello_grpc.md: 05_ai_protocols/01_base/12_gRPC/hello_grpc.md
+      - grpc-tutorial: 05_ai_protocols/01_base/12_gRPC/grpc-tutorial.md
+      - hello_grpc: 05_ai_protocols/01_base/12_gRPC/hello_grpc.md
+    - 13_WebRTC:
       - 13_WebRTC: 05_ai_protocols/01_base/13_WebRTC/13_WebRTC.md
-      - hello_webrtc.md: 05_ai_protocols/01_base/13_WebRTC/hello_webrtc.md
-    - 14_WebTransport.md: 05_ai_protocols/01_base/14_WebTransport.md
-    - 15_WebCodecs.md: 05_ai_protocols/01_base/15_WebCodecs.md
-    - 16_WebSockets.md: 05_ai_protocols/01_base/16_WebSockets.md
-    - 17_MQTT.md: 05_ai_protocols/01_base/17_MQTT.md
-    - 18_Web_XR.md: 05_ai_protocols/01_base/18_Web_XR.md
-    - 19_Future_AI_Protocols.md: 05_ai_protocols/01_base/19_Future_AI_Protocols.md
+      - hello_webrtc: 05_ai_protocols/01_base/13_WebRTC/hello_webrtc.md
+    - 14_WebTransport: 05_ai_protocols/01_base/14_WebTransport.md
+    - 15_WebCodecs: 05_ai_protocols/01_base/15_WebCodecs.md
+    - 16_WebSockets: 05_ai_protocols/01_base/16_WebSockets.md
+    - 17_MQTT: 05_ai_protocols/01_base/17_MQTT.md
+    - 18_Web_XR: 05_ai_protocols/01_base/18_Web_XR.md
+    - 19_Future_AI_Protocols: 05_ai_protocols/01_base/19_Future_AI_Protocols.md
+  - 02_model_context_protocol:
     - 00_foundations:
-      - 01_introduction.md: 05_ai_protocols/02_model_context_protocol/00_foundations/01_introduction.md
-      - 02_architecture_deep_dive.md: 05_ai_protocols/02_model_context_protocol/00_foundations/02_architecture_deep_dive.md
-      - 03_protocol_lifecycle_and_capabilities.md: 05_ai_protocols/02_model_context_protocol/00_foundations/03_protocol_lifecycle_and_capabilities.md
+      - 01_introduction: 05_ai_protocols/02_model_context_protocol/00_foundations/01_introduction.md
+      - 02_architecture_deep_dive: 05_ai_protocols/02_model_context_protocol/00_foundations/02_architecture_deep_dive.md
+      - 03_protocol_lifecycle_and_capabilities: 05_ai_protocols/02_model_context_protocol/00_foundations/03_protocol_lifecycle_and_capabilities.md
       - 04_communication_transports:
-        - 01_streamable_http.md: 05_ai_protocols/02_model_context_protocol/00_foundations/04_communication_transports/04_communication_transports_01_streamable_http.md
         - 04_communication_transports: 05_ai_protocols/02_model_context_protocol/00_foundations/04_communication_transports/04_communication_transports.md
+        - 04_communication_transports_01_streamable_http: 05_ai_protocols/02_model_context_protocol/00_foundations/04_communication_transports/04_communication_transports_01_streamable_http.md
+    - 01_server_development:
+      - 01_hello_mcp_server:
         - 01_hello_mcp_server: 05_ai_protocols/02_model_context_protocol/01_server_development/01_hello_mcp_server/01_hello_mcp_server.md
-        - hello-mcp.md: 05_ai_protocols/02_model_context_protocol/01_server_development/01_hello_mcp_server/hello-mcp.md
-        - weather.md: 05_ai_protocols/02_model_context_protocol/01_server_development/01_hello_mcp_server/weather.md
+        - hello-mcp: 05_ai_protocols/02_model_context_protocol/01_server_development/01_hello_mcp_server/hello-mcp.md
+        - weather: 05_ai_protocols/02_model_context_protocol/01_server_development/01_hello_mcp_server/weather.md
       - 01_server_development: 05_ai_protocols/02_model_context_protocol/01_server_development/01_server_development.md
       - 02_defining_tools:
         - 02_defining_tools: 05_ai_protocols/02_model_context_protocol/01_server_development/02_defining_tools/02_defining_tools.md
-        - my_tools_server.md: 05_ai_protocols/02_model_context_protocol/01_server_development/02_defining_tools/my_tools_server.md
+        - my_tools_server: 05_ai_protocols/02_model_context_protocol/01_server_development/02_defining_tools/my_tools_server.md
+      - 03_exposing_resources:
         - 03_exposing_resources: 05_ai_protocols/02_model_context_protocol/01_server_development/03_exposing_resources/03_exposing_resources.md
-        - my_resources_server.md: 05_ai_protocols/02_model_context_protocol/01_server_development/03_exposing_resources/my_resources_server.md
+        - my_resources_server: 05_ai_protocols/02_model_context_protocol/01_server_development/03_exposing_resources/my_resources_server.md
+      - 04_prompt_templates:
         - 04_prompt_templates: 05_ai_protocols/02_model_context_protocol/01_server_development/04_prompt_templates/04_prompt_templates.md
-        - my_prompts_server.md: 05_ai_protocols/02_model_context_protocol/01_server_development/04_prompt_templates/my_prompts_server.md
-      - 05_hot_reloading_mcp_server.md: 05_ai_protocols/02_model_context_protocol/01_server_development/05_hot_reloading_mcp_server.md
+        - my_prompts_server: 05_ai_protocols/02_model_context_protocol/01_server_development/04_prompt_templates/my_prompts_server.md
+      - 05_hot_reloading_mcp_server: 05_ai_protocols/02_model_context_protocol/01_server_development/05_hot_reloading_mcp_server.md
+    - 02_mcp_over_http:
       - 02_mcp_over_http: 05_ai_protocols/02_model_context_protocol/02_mcp_over_http/02_mcp_over_http.md
-      - client.md: 05_ai_protocols/02_model_context_protocol/02_mcp_over_http/client.md
-      - server.md: 05_ai_protocols/02_model_context_protocol/02_mcp_over_http/server.md
+      - client: 05_ai_protocols/02_model_context_protocol/02_mcp_over_http/client.md
+      - server: 05_ai_protocols/02_model_context_protocol/02_mcp_over_http/server.md
     - 02_model_context_protocol: 05_ai_protocols/02_model_context_protocol/02_model_context_protocol.md
     - 03_openai_agents_sdk_with_mcp:
       - 01_intro_agent_and_mcp_streamable_http:
         - 01_intro_agent_and_mcp_streamable_http: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/01_intro_agent_and_mcp_streamable_http/01_intro_agent_and_mcp_streamable_http.md
-        - agent_connect.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/01_intro_agent_and_mcp_streamable_http/agent_connect.md
+        - agent_connect: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/01_intro_agent_and_mcp_streamable_http/agent_connect.md
+      - 02_caching_mcp_tool_lists:
         - 02_caching_mcp_tool_lists: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/02_caching_mcp_tool_lists/02_caching_mcp_tool_lists.md
-        - agent_connect_cache.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/02_caching_mcp_tool_lists/agent_connect_cache.md
+        - agent_connect_cache: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/02_caching_mcp_tool_lists/agent_connect_cache.md
       - 03_openai_agents_sdk_with_mcp: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/03_openai_agents_sdk_with_mcp.md
       - 03_tracing_mcp_interactions_in_sdk:
         - 03_tracing_mcp_interactions_in_sdk: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/03_tracing_mcp_interactions_in_sdk/03_tracing_mcp_interactions_in_sdk.md
-        - agent_connect.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/03_tracing_mcp_interactions_in_sdk/agent_connect.md
+        - agent_connect: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/03_tracing_mcp_interactions_in_sdk/agent_connect.md
+      - 04_agent_with_multiple_mcp_servers:
         - 04_agent_with_multiple_mcp_servers: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/04_agent_with_multiple_mcp_servers/04_agent_with_multiple_mcp_servers.md
-        - agent_connect.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/04_agent_with_multiple_mcp_servers/agent_connect.md
-        - mcp_servers.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/04_agent_with_multiple_mcp_servers/mcp_servers.md
-      - shared_mcp_server.md: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/shared_mcp_server.md
-    - 04_security_oauth2_1_framework.md: 05_ai_protocols/02_model_context_protocol/04_security_oauth2_1_framework.md
+        - agent_connect: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/04_agent_with_multiple_mcp_servers/agent_connect.md
+        - mcp_servers: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/04_agent_with_multiple_mcp_servers/mcp_servers.md
+      - shared_mcp_server: 05_ai_protocols/02_model_context_protocol/03_openai_agents_sdk_with_mcp/shared_mcp_server.md
+    - 04_security_oauth2_1_framework: 05_ai_protocols/02_model_context_protocol/04_security_oauth2_1_framework.md
     - 05_advanced:
       - 01_claude_desktop_integration:
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/01_claude_desktop_integration/01_claude_desktop_integration_readmd.md
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/02_mcp_versioning_and_compatibility/02_mcp_versioning_and_compatibility_readmd.md
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/03_coding_ide_integration/03_coding_ide_integration_readmd.md
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/04_fastapi_mcp_mount/04_fastapi_mcp_mount_readmd.md
+        - 01_claude_desktop_integration_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/01_claude_desktop_integration/01_claude_desktop_integration_readmd.md
+      - 02_mcp_versioning_and_compatibility:
+        - 02_mcp_versioning_and_compatibility_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/02_mcp_versioning_and_compatibility/02_mcp_versioning_and_compatibility_readmd.md
+      - 03_coding_ide_integration:
+        - 03_coding_ide_integration_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/03_coding_ide_integration/03_coding_ide_integration_readmd.md
+      - 04_fastapi_mcp_mount:
+        - 04_fastapi_mcp_mount_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/04_fastapi_mcp_mount/04_fastapi_mcp_mount_readmd.md
       - 05_advanced: 05_ai_protocols/02_model_context_protocol/05_advanced/05_advanced.md
       - 05_deploying_mcp_servers_remotely:
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/05_deploying_mcp_servers_remotely/05_deploying_mcp_servers_remotely_readmd.md
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/06_protocol_lifecycle_and_capabilities/06_protocol_lifecycle_and_capabilities_readmd.md
+        - 05_deploying_mcp_servers_remotely_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/05_deploying_mcp_servers_remotely/05_deploying_mcp_servers_remotely_readmd.md
+      - 06_protocol_lifecycle_and_capabilities:
+        - 06_protocol_lifecycle_and_capabilities_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/06_protocol_lifecycle_and_capabilities/06_protocol_lifecycle_and_capabilities_readmd.md
+      - 07_advanced_spec_features:
         - 01_implementing_resource_subscriptions:
-          - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/01_implementing_resource_subscriptions/01_implementing_resource_subscriptions_readmd.md
-          - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/02_subscribing_to_resource_notifications/02_subscribing_to_resource_notifications_readmd.md
-          - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/03_enhancing_tools_with_argument_completion/03_enhancing_tools_with_argument_completion_readmd.md
-          - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/04_exposing_and_handling_client_capabilities/04_exposing_and_handling_client_capabilities_readmd.md
-          - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/06_exposing_and_handling_client_capabilities/06_exposing_and_handling_client_capabilities_readmd.md
-        - readmd.md: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/07_advanced_spec_features_readmd.md
-      - 08_mcp_desogn_patterns.md: 05_ai_protocols/02_model_context_protocol/05_advanced/08_mcp_desogn_patterns.md
-      - 02_architecture.md: 05_ai_protocols/02_model_context_protocol/backup/02_architecture.md
-      - 03_github_server.md: 05_ai_protocols/02_model_context_protocol/backup/03_github_server.md
-      - 04_servers.md: 05_ai_protocols/02_model_context_protocol/backup/04_servers.md
-      - 05_python_sdk.md: 05_ai_protocols/02_model_context_protocol/backup/05_python_sdk.md
-      - 06_fastmcp.md: 05_ai_protocols/02_model_context_protocol/backup/06_fastmcp.md
-      - 07_langgraph_integration.md: 05_ai_protocols/02_model_context_protocol/backup/07_langgraph_integration.md
-      - 08_neo4j_integration.md: 05_ai_protocols/02_model_context_protocol/backup/08_neo4j_integration.md
-      - 09_postgres_integration.md: 05_ai_protocols/02_model_context_protocol/backup/09_postgres_integration.md
-      - 10_rag_graphrag_mcp.md: 05_ai_protocols/02_model_context_protocol/backup/10_rag_graphrag_mcp.md
-      - 11_fetch_server.md: 05_ai_protocols/02_model_context_protocol/backup/11_fetch_server.md
+          - 01_implementing_resource_subscriptions_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/01_implementing_resource_subscriptions/01_implementing_resource_subscriptions_readmd.md
+        - 02_subscribing_to_resource_notifications:
+          - 02_subscribing_to_resource_notifications_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/02_subscribing_to_resource_notifications/02_subscribing_to_resource_notifications_readmd.md
+        - 03_enhancing_tools_with_argument_completion:
+          - 03_enhancing_tools_with_argument_completion_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/03_enhancing_tools_with_argument_completion/03_enhancing_tools_with_argument_completion_readmd.md
+        - 04_exposing_and_handling_client_capabilities:
+          - 04_exposing_and_handling_client_capabilities_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/04_exposing_and_handling_client_capabilities/04_exposing_and_handling_client_capabilities_readmd.md
+        - 06_exposing_and_handling_client_capabilities:
+          - 06_exposing_and_handling_client_capabilities_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/06_exposing_and_handling_client_capabilities/06_exposing_and_handling_client_capabilities_readmd.md
+        - 07_advanced_spec_features_readmd: 05_ai_protocols/02_model_context_protocol/05_advanced/07_advanced_spec_features/07_advanced_spec_features_readmd.md
+      - 08_mcp_desogn_patterns: 05_ai_protocols/02_model_context_protocol/05_advanced/08_mcp_desogn_patterns.md
+    - backup:
+      - 02_architecture: 05_ai_protocols/02_model_context_protocol/backup/02_architecture.md
+      - 03_github_server: 05_ai_protocols/02_model_context_protocol/backup/03_github_server.md
+      - 04_servers: 05_ai_protocols/02_model_context_protocol/backup/04_servers.md
+      - 05_python_sdk: 05_ai_protocols/02_model_context_protocol/backup/05_python_sdk.md
+      - 06_fastmcp: 05_ai_protocols/02_model_context_protocol/backup/06_fastmcp.md
+      - 07_langgraph_integration: 05_ai_protocols/02_model_context_protocol/backup/07_langgraph_integration.md
+      - 08_neo4j_integration: 05_ai_protocols/02_model_context_protocol/backup/08_neo4j_integration.md
+      - 09_postgres_integration: 05_ai_protocols/02_model_context_protocol/backup/09_postgres_integration.md
+      - 10_rag_graphrag_mcp: 05_ai_protocols/02_model_context_protocol/backup/10_rag_graphrag_mcp.md
+      - 11_fetch_server: 05_ai_protocols/02_model_context_protocol/backup/11_fetch_server.md
       - new_backup:
-        - ai_to_ai.md: 05_ai_protocols/02_model_context_protocol/backup/new_backup/ai_to_ai.md
-        - integration_autogen_langgraph_crewai.md: 05_ai_protocols/02_model_context_protocol/backup/new_backup/integration_autogen_langgraph_crewai.md
-  - 03_a2a.md: 05_ai_protocols/03_a2a.md
+        - ai_to_ai: 05_ai_protocols/02_model_context_protocol/backup/new_backup/ai_to_ai.md
+        - integration_autogen_langgraph_crewai: 05_ai_protocols/02_model_context_protocol/backup/new_backup/integration_autogen_langgraph_crewai.md
+  - 03_a2a: 05_ai_protocols/03_a2a.md
   - 04_llms_txt:
     - 04_llms_txt: 05_ai_protocols/04_llms_txt/04_llms_txt.md
     - myproject:
-      - llms.md: 05_ai_protocols/04_llms_txt/myproject/myproject_llms.md
       - myproject: 05_ai_protocols/04_llms_txt/myproject/myproject.md
+      - myproject_llms: 05_ai_protocols/04_llms_txt/myproject/myproject_llms.md
   - 05_ai_protocols: 05_ai_protocols/05_ai_protocols.md
+- 06_daca_deployment_guide:
   - 01_Prototype-Deployment-Serverless:
     - 01_Prototype-Deployment-Serverless: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/01_Prototype-Deployment-Serverless.md
     - 1-Environment-Setup:
-      - Azure-Container-Apps-Provisioning.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Azure-Container-Apps-Provisioning.md
-      - Dapr-Sidecar-Configuration.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Dapr-Sidecar-Configuration.md
-      - Secrets-Management-Azure-KeyVault.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Secrets-Management-Azure-KeyVault.md
-      - Dependency-Management-Poetry-or-Requirements.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/2-Containerization/2-Containerization_Dependency-Management-Poetry-or-Requirements.md
-      - Dockerfile-Best-Practices.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/2-Containerization/2-Containerization_Dockerfile-Best-Practices.md
-      - Container-Registry-Integration.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/3-CI-CD-Pipeline/3-CI-CD-Pipeline_Container-Registry-Integration.md
-      - GitHub-Actions-Build-and-Deploy.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/3-CI-CD-Pipeline/3-CI-CD-Pipeline_GitHub-Actions-Build-and-Deploy.md
-      - Basic-Load-Testing-with-k6.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/4-Validation-and-Testing/4-Validation-and-Testing_Basic-Load-Testing-with-k6.md
-      - Smoke-Testing-Checklist.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/4-Validation-and-Testing/4-Validation-and-Testing_Smoke-Testing-Checklist.md
-      - Collecting-Feedback-and-Iterating.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/5-Submission-and-Feedback/5-Submission-and-Feedback_Collecting-Feedback-and-Iterating.md
-      - Prototype-URL-Sharing.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/5-Submission-and-Feedback/5-Submission-and-Feedback_Prototype-URL-Sharing.md
-      - Database-Geo-Replication-Strategies.md: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/xx-Infrastructure-Setup/xx-Infrastructure-Setup_Database-Geo-Replication-Strategies.md
-      - Create-Cluster-Using-Rancher-and-Civo.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/01_Cluster_Provisioning/01_Cluster_Provisioning_Create-Cluster-Using-Rancher-and-Civo.md
-      - Node-Pool-Configuration.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/01_Cluster_Provisioning/01_Cluster_Provisioning_Node-Pool-Configuration.md
+      - 1-Environment-Setup_Azure-Container-Apps-Provisioning: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Azure-Container-Apps-Provisioning.md
+      - 1-Environment-Setup_Dapr-Sidecar-Configuration: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Dapr-Sidecar-Configuration.md
+      - 1-Environment-Setup_Secrets-Management-Azure-KeyVault: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/1-Environment-Setup/1-Environment-Setup_Secrets-Management-Azure-KeyVault.md
+    - 2-Containerization:
+      - 2-Containerization_Dependency-Management-Poetry-or-Requirements: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/2-Containerization/2-Containerization_Dependency-Management-Poetry-or-Requirements.md
+      - 2-Containerization_Dockerfile-Best-Practices: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/2-Containerization/2-Containerization_Dockerfile-Best-Practices.md
+    - 3-CI-CD-Pipeline:
+      - 3-CI-CD-Pipeline_Container-Registry-Integration: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/3-CI-CD-Pipeline/3-CI-CD-Pipeline_Container-Registry-Integration.md
+      - 3-CI-CD-Pipeline_GitHub-Actions-Build-and-Deploy: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/3-CI-CD-Pipeline/3-CI-CD-Pipeline_GitHub-Actions-Build-and-Deploy.md
+    - 4-Validation-and-Testing:
+      - 4-Validation-and-Testing_Basic-Load-Testing-with-k6: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/4-Validation-and-Testing/4-Validation-and-Testing_Basic-Load-Testing-with-k6.md
+      - 4-Validation-and-Testing_Smoke-Testing-Checklist: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/4-Validation-and-Testing/4-Validation-and-Testing_Smoke-Testing-Checklist.md
+    - 5-Submission-and-Feedback:
+      - 5-Submission-and-Feedback_Collecting-Feedback-and-Iterating: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/5-Submission-and-Feedback/5-Submission-and-Feedback_Collecting-Feedback-and-Iterating.md
+      - 5-Submission-and-Feedback_Prototype-URL-Sharing: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/5-Submission-and-Feedback/5-Submission-and-Feedback_Prototype-URL-Sharing.md
+    - xx-Infrastructure-Setup:
+      - xx-Infrastructure-Setup_Database-Geo-Replication-Strategies: 06_daca_deployment_guide/01_Prototype-Deployment-Serverless/xx-Infrastructure-Setup/xx-Infrastructure-Setup_Database-Geo-Replication-Strategies.md
+  - 02_Enterprise-Deployment-Kubernetes:
+    - 01_Cluster_Provisioning:
+      - 01_Cluster_Provisioning_Create-Cluster-Using-Rancher-and-Civo: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/01_Cluster_Provisioning/01_Cluster_Provisioning_Create-Cluster-Using-Rancher-and-Civo.md
+      - 01_Cluster_Provisioning_Node-Pool-Configuration: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/01_Cluster_Provisioning/01_Cluster_Provisioning_Node-Pool-Configuration.md
     - 02_Enterprise-Deployment-Kubernetes: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/02_Enterprise-Deployment-Kubernetes.md
     - 02_GitOps_and_Registry:
-      - GitOps-Setup-with-ArgoCD.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/02_GitOps_and_Registry/02_GitOps_and_Registry_GitOps-Setup-with-ArgoCD.md
-      - Push-Images-to-Registry.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/02_GitOps_and_Registry/02_GitOps_and_Registry_Push-Images-to-Registry.md
-      - RBAC-and-NetworkPolicies.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_RBAC-and-NetworkPolicies.md
-      - Secrets-Management-Kubernetes.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_Secrets-Management-Kubernetes.md
-      - TLS-Certificates-using-CertManager.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_TLS-Certificates-using-CertManager.md
-      - Cluster-Autoscaler-Configuration.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_Cluster-Autoscaler-Configuration.md
-      - HPA-Setup-for-Agents.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_HPA-Setup-for-Agents.md
-      - PodDisruptionBudget-and-Readiness-Probes.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_PodDisruptionBudget-and-Readiness-Probes.md
-      - Centralized-Logging-with-Loki-or-EFK.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Centralized-Logging-with-Loki-or-EFK.md
-      - Enable-Dapr-Metrics-and-Tracing.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Enable-Dapr-Metrics-and-Tracing.md
-      - Install-Prometheus-Grafana.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Install-Prometheus-Grafana.md
-      - Define-SLOs-and-SLAs.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Define-SLOs-and-SLAs.md
-      - Execute-Load-Test-k6-or-Locust.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Execute-Load-Test-k6-or-Locust.md
-      - Resource-Sizing-Guidelines.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Resource-Sizing-Guidelines.md
-      - Civo-vs-AWS-vs-Azure-vs-GCP.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/07_Provider_Spectrum_Review/07_Provider_Spectrum_Review_Civo-vs-AWS-vs-Azure-vs-GCP.md
-      - Finalize-Civo-Decision.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/07_Provider_Spectrum_Review/07_Provider_Spectrum_Review_Finalize-Civo-Decision.md
-      - Service-Connections.md: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/xx-Infrastructure-Setup/xx-Infrastructure-Setup_Service-Connections.md
-      - Cross-Region-Data-Replication.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Cross-Region-Data-Replication.md
-      - Global-Load-Balancing-and-Traffic-Management.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Global-Load-Balancing-and-Traffic-Management.md
-      - Global-Service-Mesh-Configuration.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Global-Service-Mesh-Configuration.md
-      - Kubernetes-Federation-v2-Guide.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Kubernetes-Federation-v2-Guide.md
-      - Multi-Region-Monitoring-and-Observability.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Multi-Region-Monitoring-and-Observability.md
-      - Setup-Multi-Region-Clusters.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Setup-Multi-Region-Clusters.md
-      - Configure-Civo-Global-Load-Balancer.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/02_Geo_Replication_and_Traffic_Management/02_Geo_Replication_and_Traffic_Management_Configure-Civo-Global-Load-Balancer.md
-      - Database-Geo-Replication-Strategies.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/02_Geo_Replication_and_Traffic_Management/02_Geo_Replication_and_Traffic_Management_Database-Geo-Replication-Strategies.md
-      - Cross-Region-AutoScaling.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/03_Advanced_Autoscaling_and_Cost_Optimization/03_Advanced_Autoscaling_and_Cost_Optimization_Cross-Region-AutoScaling.md
-      - Use-of-Spot-Instances.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/03_Advanced_Autoscaling_and_Cost_Optimization/03_Advanced_Autoscaling_and_Cost_Optimization_Use-of-Spot-Instances.md
+      - 02_GitOps_and_Registry_GitOps-Setup-with-ArgoCD: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/02_GitOps_and_Registry/02_GitOps_and_Registry_GitOps-Setup-with-ArgoCD.md
+      - 02_GitOps_and_Registry_Push-Images-to-Registry: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/02_GitOps_and_Registry/02_GitOps_and_Registry_Push-Images-to-Registry.md
+    - 03_Security_and_Compliance:
+      - 03_Security_and_Compliance_RBAC-and-NetworkPolicies: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_RBAC-and-NetworkPolicies.md
+      - 03_Security_and_Compliance_Secrets-Management-Kubernetes: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_Secrets-Management-Kubernetes.md
+      - 03_Security_and_Compliance_TLS-Certificates-using-CertManager: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/03_Security_and_Compliance/03_Security_and_Compliance_TLS-Certificates-using-CertManager.md
+    - 04_Autoscaling_and_Resiliency:
+      - 04_Autoscaling_and_Resiliency_Cluster-Autoscaler-Configuration: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_Cluster-Autoscaler-Configuration.md
+      - 04_Autoscaling_and_Resiliency_HPA-Setup-for-Agents: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_HPA-Setup-for-Agents.md
+      - 04_Autoscaling_and_Resiliency_PodDisruptionBudget-and-Readiness-Probes: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/04_Autoscaling_and_Resiliency/04_Autoscaling_and_Resiliency_PodDisruptionBudget-and-Readiness-Probes.md
+    - 05_Observability:
+      - 05_Observability_Centralized-Logging-with-Loki-or-EFK: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Centralized-Logging-with-Loki-or-EFK.md
+      - 05_Observability_Enable-Dapr-Metrics-and-Tracing: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Enable-Dapr-Metrics-and-Tracing.md
+      - 05_Observability_Install-Prometheus-Grafana: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/05_Observability/05_Observability_Install-Prometheus-Grafana.md
+    - 06_Load_Testing_and_Capacity_Planning:
+      - 06_Load_Testing_and_Capacity_Planning_Define-SLOs-and-SLAs: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Define-SLOs-and-SLAs.md
+      - 06_Load_Testing_and_Capacity_Planning_Execute-Load-Test-k6-or-Locust: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Execute-Load-Test-k6-or-Locust.md
+      - 06_Load_Testing_and_Capacity_Planning_Resource-Sizing-Guidelines: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/06_Load_Testing_and_Capacity_Planning/06_Load_Testing_and_Capacity_Planning_Resource-Sizing-Guidelines.md
+    - 07_Provider_Spectrum_Review:
+      - 07_Provider_Spectrum_Review_Civo-vs-AWS-vs-Azure-vs-GCP: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/07_Provider_Spectrum_Review/07_Provider_Spectrum_Review_Civo-vs-AWS-vs-Azure-vs-GCP.md
+      - 07_Provider_Spectrum_Review_Finalize-Civo-Decision: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/07_Provider_Spectrum_Review/07_Provider_Spectrum_Review_Finalize-Civo-Decision.md
+    - xx-Infrastructure-Setup:
+      - xx-Infrastructure-Setup_Service-Connections: 06_daca_deployment_guide/02_Enterprise-Deployment-Kubernetes/xx-Infrastructure-Setup/xx-Infrastructure-Setup_Service-Connections.md
+  - 03_Planetary-Scale-Deployment:
+    - 01_Global-Cluster-Federation:
+      - 01_Global-Cluster-Federation_Cross-Region-Data-Replication: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Cross-Region-Data-Replication.md
+      - 01_Global-Cluster-Federation_Global-Load-Balancing-and-Traffic-Management: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Global-Load-Balancing-and-Traffic-Management.md
+      - 01_Global-Cluster-Federation_Global-Service-Mesh-Configuration: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Global-Service-Mesh-Configuration.md
+      - 01_Global-Cluster-Federation_Kubernetes-Federation-v2-Guide: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Kubernetes-Federation-v2-Guide.md
+      - 01_Global-Cluster-Federation_Multi-Region-Monitoring-and-Observability: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Multi-Region-Monitoring-and-Observability.md
+      - 01_Global-Cluster-Federation_Setup-Multi-Region-Clusters: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/01_Global-Cluster-Federation/01_Global-Cluster-Federation_Setup-Multi-Region-Clusters.md
+    - 02_Geo_Replication_and_Traffic_Management:
+      - 02_Geo_Replication_and_Traffic_Management_Configure-Civo-Global-Load-Balancer: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/02_Geo_Replication_and_Traffic_Management/02_Geo_Replication_and_Traffic_Management_Configure-Civo-Global-Load-Balancer.md
+      - 02_Geo_Replication_and_Traffic_Management_Database-Geo-Replication-Strategies: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/02_Geo_Replication_and_Traffic_Management/02_Geo_Replication_and_Traffic_Management_Database-Geo-Replication-Strategies.md
+    - 03_Advanced_Autoscaling_and_Cost_Optimization:
+      - 03_Advanced_Autoscaling_and_Cost_Optimization_Cross-Region-AutoScaling: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/03_Advanced_Autoscaling_and_Cost_Optimization/03_Advanced_Autoscaling_and_Cost_Optimization_Cross-Region-AutoScaling.md
+      - 03_Advanced_Autoscaling_and_Cost_Optimization_Use-of-Spot-Instances: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/03_Advanced_Autoscaling_and_Cost_Optimization/03_Advanced_Autoscaling_and_Cost_Optimization_Use-of-Spot-Instances.md
     - 03_Planetary-Scale-Deployment: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/03_Planetary-Scale-Deployment.md
     - 04_Enterprise_Observability_at_Scale:
-      - Centralized-Monitoring-Aggregation.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/04_Enterprise_Observability_at_Scale/04_Enterprise_Observability_at_Scale_Centralized-Monitoring-Aggregation.md
-      - Distributed-Tracing-Across-Regions.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/04_Enterprise_Observability_at_Scale/04_Enterprise_Observability_at_Scale_Distributed-Tracing-Across-Regions.md
-      - Global-Security-Policies.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/05_Disaster_Recovery_and_Compliance/05_Disaster_Recovery_and_Compliance_Global-Security-Policies.md
-      - Scheduled-Backup-and-Restore.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/05_Disaster_Recovery_and_Compliance/05_Disaster_Recovery_and_Compliance_Scheduled-Backup-and-Restore.md
-      - Hybrid-Multi-Cloud-Planning.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/06_Future_Spectrum_Review/06_Future_Spectrum_Review_Hybrid-Multi-Cloud-Planning.md
-      - Watch-Emerging-Global-Clouds.md: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/06_Future_Spectrum_Review/06_Future_Spectrum_Review_Watch-Emerging-Global-Clouds.md
+      - 04_Enterprise_Observability_at_Scale_Centralized-Monitoring-Aggregation: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/04_Enterprise_Observability_at_Scale/04_Enterprise_Observability_at_Scale_Centralized-Monitoring-Aggregation.md
+      - 04_Enterprise_Observability_at_Scale_Distributed-Tracing-Across-Regions: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/04_Enterprise_Observability_at_Scale/04_Enterprise_Observability_at_Scale_Distributed-Tracing-Across-Regions.md
+    - 05_Disaster_Recovery_and_Compliance:
+      - 05_Disaster_Recovery_and_Compliance_Global-Security-Policies: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/05_Disaster_Recovery_and_Compliance/05_Disaster_Recovery_and_Compliance_Global-Security-Policies.md
+      - 05_Disaster_Recovery_and_Compliance_Scheduled-Backup-and-Restore: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/05_Disaster_Recovery_and_Compliance/05_Disaster_Recovery_and_Compliance_Scheduled-Backup-and-Restore.md
+    - 06_Future_Spectrum_Review:
+      - 06_Future_Spectrum_Review_Hybrid-Multi-Cloud-Planning: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/06_Future_Spectrum_Review/06_Future_Spectrum_Review_Hybrid-Multi-Cloud-Planning.md
+      - 06_Future_Spectrum_Review_Watch-Emerging-Global-Clouds: 06_daca_deployment_guide/03_Planetary-Scale-Deployment/06_Future_Spectrum_Review/06_Future_Spectrum_Review_Watch-Emerging-Global-Clouds.md
   - 06_daca_deployment_guide: 06_daca_deployment_guide/06_daca_deployment_guide.md
   - old:
-    - 01_daca_prototyping_deployment.md: 06_daca_deployment_guide/old/old_01_daca_prototyping_deployment.md
+    - old_01_daca_prototyping_deployment: 06_daca_deployment_guide/old/old_01_daca_prototyping_deployment.md
     - old_02_daca_medium_scale_aca_deployment:
-      - aca_tutorial.md: 06_daca_deployment_guide/old/old_02_daca_medium_scale_aca_deployment/old_02_daca_medium_scale_aca_deployment_aca_tutorial.md
       - old_02_daca_medium_scale_aca_deployment: 06_daca_deployment_guide/old/old_02_daca_medium_scale_aca_deployment/old_02_daca_medium_scale_aca_deployment.md
-    - 03_kubernetes_tutorial.md: 06_daca_deployment_guide/old/old_03_kubernetes_tutorial.md
-    - 04_daca_planet_scale_kubernetes_deployment_on_oracle.md: 06_daca_deployment_guide/old/old_04_daca_planet_scale_kubernetes_deployment_on_oracle.md
-    - 05_daca_planet_scale_kubernetes_deployment_on_civo.md: 06_daca_deployment_guide/old/old_05_daca_planet_scale_kubernetes_deployment_on_civo.md
-    - 06_self_hosting_llms.md: 06_daca_deployment_guide/old/old_06_self_hosting_llms.md
-    - 07_helm_tutorial.md: 06_daca_deployment_guide/old/old_07_helm_tutorial.md
-    - 08_operator_tutorial.md: 06_daca_deployment_guide/old/old_08_operator_tutorial.md
-    - 09_prometheus_tutorial.md: 06_daca_deployment_guide/old/old_09_prometheus_tutorial.md
-    - 10_argo_cd_tutorial.md: 06_daca_deployment_guide/old/old_10_argo_cd_tutorial.md
-    - 11_istio_tutorial.md: 06_daca_deployment_guide/old/old_11_istio_tutorial.md
-- 07_ckad.md: 07_ckad.md
-- 08_voice_agents.md: 08_voice_agents.md
+      - old_02_daca_medium_scale_aca_deployment_aca_tutorial: 06_daca_deployment_guide/old/old_02_daca_medium_scale_aca_deployment/old_02_daca_medium_scale_aca_deployment_aca_tutorial.md
+    - old_03_kubernetes_tutorial: 06_daca_deployment_guide/old/old_03_kubernetes_tutorial.md
+    - old_04_daca_planet_scale_kubernetes_deployment_on_oracle: 06_daca_deployment_guide/old/old_04_daca_planet_scale_kubernetes_deployment_on_oracle.md
+    - old_05_daca_planet_scale_kubernetes_deployment_on_civo: 06_daca_deployment_guide/old/old_05_daca_planet_scale_kubernetes_deployment_on_civo.md
+    - old_06_self_hosting_llms: 06_daca_deployment_guide/old/old_06_self_hosting_llms.md
+    - old_07_helm_tutorial: 06_daca_deployment_guide/old/old_07_helm_tutorial.md
+    - old_08_operator_tutorial: 06_daca_deployment_guide/old/old_08_operator_tutorial.md
+    - old_09_prometheus_tutorial: 06_daca_deployment_guide/old/old_09_prometheus_tutorial.md
+    - old_10_argo_cd_tutorial: 06_daca_deployment_guide/old/old_10_argo_cd_tutorial.md
+    - old_11_istio_tutorial: 06_daca_deployment_guide/old/old_11_istio_tutorial.md
+- 07_ckad: 07_ckad.md
+- 08_voice_agents: 08_voice_agents.md
 - 09_open_source_llms:
-  - 01_self_hosting_llms.md: 09_open_source_llms/01_self_hosting_llms.md
-  - 02_fine_tuning_llms.md: 09_open_source_llms/02_fine_tuning_llms.md
+  - 01_self_hosting_llms: 09_open_source_llms/01_self_hosting_llms.md
+  - 02_fine_tuning_llms: 09_open_source_llms/02_fine_tuning_llms.md
   - 09_open_source_llms: 09_open_source_llms/09_open_source_llms.md
+- 10_advanced_agentic_ui:
   - 01_chainlite:
     - 01_chainlite: 10_advanced_agentic_ui/01_chainlite/01_chainlite.md
     - helloworld:
-      - chainlit.md: 10_advanced_agentic_ui/01_chainlite/helloworld/helloworld_chainlit.md
       - helloworld: 10_advanced_agentic_ui/01_chainlite/helloworld/helloworld.md
-    - 00_helloworld.md: 10_advanced_agentic_ui/02_streamlit/00_helloworld.md
-    - 01_magic.md: 10_advanced_agentic_ui/02_streamlit/01_magic.md
-    - 02_basics.md: 10_advanced_agentic_ui/02_streamlit/02_basics.md
+      - helloworld_chainlit: 10_advanced_agentic_ui/01_chainlite/helloworld/helloworld_chainlit.md
+  - 02_streamlit:
+    - 00_helloworld: 10_advanced_agentic_ui/02_streamlit/00_helloworld.md
+    - 01_magic: 10_advanced_agentic_ui/02_streamlit/01_magic.md
+    - 02_basics: 10_advanced_agentic_ui/02_streamlit/02_basics.md
     - 02_streamlit: 10_advanced_agentic_ui/02_streamlit/02_streamlit.md
-    - 03_bmi_caulculator_project.md: 10_advanced_agentic_ui/02_streamlit/03_bmi_caulculator_project.md
-    - 04_multipage_apps.md: 10_advanced_agentic_ui/02_streamlit/04_multipage_apps.md
-    - 05_session_state.md: 10_advanced_agentic_ui/02_streamlit/05_session_state.md
-    - 06_layout_containers.md: 10_advanced_agentic_ui/02_streamlit/06_layout_containers.md
-    - 07_chat_elements.md: 10_advanced_agentic_ui/02_streamlit/07_chat_elements.md
-    - 08_status.md: 10_advanced_agentic_ui/02_streamlit/08_status.md
-    - 09_secrets_management_native.md: 10_advanced_agentic_ui/02_streamlit/09_secrets_management_native.md
-    - 10_deploy.md: 10_advanced_agentic_ui/02_streamlit/10_deploy.md
-    - 11_connect.md: 10_advanced_agentic_ui/02_streamlit/11_connect.md
-    - 12_chat_app_project.md: 10_advanced_agentic_ui/02_streamlit/12_chat_app_project.md
-    - 13_openai_assistants_project.md: 10_advanced_agentic_ui/02_streamlit/13_openai_assistants_project.md
-    - 14_multimodal_project.md: 10_advanced_agentic_ui/02_streamlit/14_multimodal_project.md
-    - 15_build_with_chatgpt.md: 10_advanced_agentic_ui/02_streamlit/15_build_with_chatgpt.md
-  - 03_fullstack_v0_fastapi.md: 10_advanced_agentic_ui/03_fullstack_v0_fastapi.md
-  - 04_agents_ui.md: 10_advanced_agentic_ui/04_agents_ui.md
+    - 03_bmi_caulculator_project: 10_advanced_agentic_ui/02_streamlit/03_bmi_caulculator_project.md
+    - 04_multipage_apps: 10_advanced_agentic_ui/02_streamlit/04_multipage_apps.md
+    - 05_session_state: 10_advanced_agentic_ui/02_streamlit/05_session_state.md
+    - 06_layout_containers: 10_advanced_agentic_ui/02_streamlit/06_layout_containers.md
+    - 07_chat_elements: 10_advanced_agentic_ui/02_streamlit/07_chat_elements.md
+    - 08_status: 10_advanced_agentic_ui/02_streamlit/08_status.md
+    - 09_secrets_management_native: 10_advanced_agentic_ui/02_streamlit/09_secrets_management_native.md
+    - 10_deploy: 10_advanced_agentic_ui/02_streamlit/10_deploy.md
+    - 11_connect: 10_advanced_agentic_ui/02_streamlit/11_connect.md
+    - 12_chat_app_project: 10_advanced_agentic_ui/02_streamlit/12_chat_app_project.md
+    - 13_openai_assistants_project: 10_advanced_agentic_ui/02_streamlit/13_openai_assistants_project.md
+    - 14_multimodal_project: 10_advanced_agentic_ui/02_streamlit/14_multimodal_project.md
+    - 15_build_with_chatgpt: 10_advanced_agentic_ui/02_streamlit/15_build_with_chatgpt.md
+  - 03_fullstack_v0_fastapi: 10_advanced_agentic_ui/03_fullstack_v0_fastapi.md
+  - 04_agents_ui: 10_advanced_agentic_ui/04_agents_ui.md
   - 10_advanced_agentic_ui: 10_advanced_agentic_ui/10_advanced_agentic_ui.md
-  - 00_knowledge_graphs.md: 11_graph_query_language/00_knowledge_graphs.md
-  - 01_personalization.md: 11_graph_query_language/01_personalization.md
+- 11_graph_query_language:
+  - 00_knowledge_graphs: 11_graph_query_language/00_knowledge_graphs.md
+  - 01_personalization: 11_graph_query_language/01_personalization.md
   - 02_understanding_gql:
-    - gql_basics.md: 11_graph_query_language/02_understanding_gql/02_understanding_gql_gql_basics.md
     - 02_understanding_gql: 11_graph_query_language/02_understanding_gql/02_understanding_gql.md
-  - 03_neo4j.md: 11_graph_query_language/03_neo4j.md
-  - 04_auradb.md: 11_graph_query_language/04_auradb.md
-  - 05_python_driver.md: 11_graph_query_language/05_python_driver.md
-  - 06_graph_rag.md: 11_graph_query_language/06_graph_rag.md
-  - 07_knowledge_graphs_genai_ai_agents.md: 11_graph_query_language/07_knowledge_graphs_genai_ai_agents.md
-  - 08_falkorDB.md: 11_graph_query_language/08_falkorDB.md
+    - 02_understanding_gql_gql_basics: 11_graph_query_language/02_understanding_gql/02_understanding_gql_gql_basics.md
+  - 03_neo4j: 11_graph_query_language/03_neo4j.md
+  - 04_auradb: 11_graph_query_language/04_auradb.md
+  - 05_python_driver: 11_graph_query_language/05_python_driver.md
+  - 06_graph_rag: 11_graph_query_language/06_graph_rag.md
+  - 07_knowledge_graphs_genai_ai_agents: 11_graph_query_language/07_knowledge_graphs_genai_ai_agents.md
+  - 08_falkorDB: 11_graph_query_language/08_falkorDB.md
   - 11_graph_query_language: 11_graph_query_language/11_graph_query_language.md
-- 12_agentia.md: 12_agentia.md
+- 12_agentia: 12_agentia.md
 - AGENTIA_PROJECTS:
-  - 01_helloworld.md: AGENTIA_PROJECTS/01_helloworld.md
-  - 02_user_preferences.md: AGENTIA_PROJECTS/02_user_preferences.md
-  - 03_knowledge_graph.md: AGENTIA_PROJECTS/03_knowledge_graph.md
-  - 04_mail_processing.md: AGENTIA_PROJECTS/04_mail_processing.md
-  - 05_travel_companion.md: AGENTIA_PROJECTS/05_travel_companion.md
-  - 06_financial_advisor.md: AGENTIA_PROJECTS/06_financial_advisor.md
-  - 07_project_management.md: AGENTIA_PROJECTS/07_project_management.md
-  - 08_fitness_management.md: AGENTIA_PROJECTS/08_fitness_management.md
-  - 09_event_planner.md: AGENTIA_PROJECTS/09_event_planner.md
-  - 10_smart_home.md: AGENTIA_PROJECTS/10_smart_home.md
-  - 11_degital_marketing.md: AGENTIA_PROJECTS/11_degital_marketing.md
-  - 12_real_estate.md: AGENTIA_PROJECTS/12_real_estate.md
-  - 13_ecommerce.md: AGENTIA_PROJECTS/13_ecommerce.md
-  - 14_wordpress.md: AGENTIA_PROJECTS/14_wordpress.md
-  - 15_stock_market.md: AGENTIA_PROJECTS/15_stock_market.md
-  - 16_erp.md: AGENTIA_PROJECTS/16_erp.md
-  - 17_socialmedia.md: AGENTIA_PROJECTS/17_socialmedia.md
+  - 01_helloworld: AGENTIA_PROJECTS/01_helloworld.md
+  - 02_user_preferences: AGENTIA_PROJECTS/02_user_preferences.md
+  - 03_knowledge_graph: AGENTIA_PROJECTS/03_knowledge_graph.md
+  - 04_mail_processing: AGENTIA_PROJECTS/04_mail_processing.md
+  - 05_travel_companion: AGENTIA_PROJECTS/05_travel_companion.md
+  - 06_financial_advisor: AGENTIA_PROJECTS/06_financial_advisor.md
+  - 07_project_management: AGENTIA_PROJECTS/07_project_management.md
+  - 08_fitness_management: AGENTIA_PROJECTS/08_fitness_management.md
+  - 09_event_planner: AGENTIA_PROJECTS/09_event_planner.md
+  - 10_smart_home: AGENTIA_PROJECTS/10_smart_home.md
+  - 11_degital_marketing: AGENTIA_PROJECTS/11_degital_marketing.md
+  - 12_real_estate: AGENTIA_PROJECTS/12_real_estate.md
+  - 13_ecommerce: AGENTIA_PROJECTS/13_ecommerce.md
+  - 14_wordpress: AGENTIA_PROJECTS/14_wordpress.md
+  - 15_stock_market: AGENTIA_PROJECTS/15_stock_market.md
+  - 16_erp: AGENTIA_PROJECTS/16_erp.md
+  - 17_socialmedia: AGENTIA_PROJECTS/17_socialmedia.md
   - AGENTIA_PROJECTS: AGENTIA_PROJECTS/AGENTIA_PROJECTS.md
-- agentic_ai_startup_roadmap.md: agentic_ai_startup_roadmap.md
+- STARTUPS: STARTUPS.md
+- agentic_ai_startup_roadmap: agentic_ai_startup_roadmap.md
 - backup_recent:
   - 04_integrations_openai_agents:
-    - 00_agent_generated_queries.md: backup_recent/04_integrations_openai_agents/00_agent_generated_queries.md
+    - 00_agent_generated_queries: backup_recent/04_integrations_openai_agents/00_agent_generated_queries.md
     - 04_integrations_openai_agents: backup_recent/04_integrations_openai_agents/04_integrations_openai_agents.md
-    - 00_ai_agents_course.md: backup_recent/07a_autogen_microsoft/00_ai_agents_course.md
-    - 01_actor_model.md: backup_recent/07a_autogen_microsoft/01_actor_model.md
+  - 07a_autogen_microsoft:
+    - 00_ai_agents_course: backup_recent/07a_autogen_microsoft/00_ai_agents_course.md
+    - 01_actor_model: backup_recent/07a_autogen_microsoft/01_actor_model.md
     - 02_agentchat_helloworld:
       - 02_agentchat_helloworld: backup_recent/07a_autogen_microsoft/02_agentchat_helloworld/02_agentchat_helloworld.md
-      - helloworld.md: backup_recent/07a_autogen_microsoft/02_agentchat_helloworld/helloworld.md
+      - helloworld: backup_recent/07a_autogen_microsoft/02_agentchat_helloworld/helloworld.md
+    - 03_tool_calling:
       - 03_tool_calling: backup_recent/07a_autogen_microsoft/03_tool_calling/03_tool_calling.md
-      - toolcalling.md: backup_recent/07a_autogen_microsoft/03_tool_calling/toolcalling.md
+      - toolcalling: backup_recent/07a_autogen_microsoft/03_tool_calling/toolcalling.md
+    - 04_agents_messages:
       - 04_agents_messages: backup_recent/07a_autogen_microsoft/04_agents_messages/04_agents_messages.md
-      - agents_messages.md: backup_recent/07a_autogen_microsoft/04_agents_messages/agents_messages.md
+      - agents_messages: backup_recent/07a_autogen_microsoft/04_agents_messages/agents_messages.md
+    - 05_teams:
       - 05_teams: backup_recent/07a_autogen_microsoft/05_teams/05_teams.md
-      - teams.md: backup_recent/07a_autogen_microsoft/05_teams/teams.md
+      - teams: backup_recent/07a_autogen_microsoft/05_teams/teams.md
+    - 06_human_in_the_loop:
       - 06_human_in_the_loop: backup_recent/07a_autogen_microsoft/06_human_in_the_loop/06_human_in_the_loop.md
-      - console_chat_agent.md: backup_recent/07a_autogen_microsoft/06_human_in_the_loop/console_chat_agent.md
+      - console_chat_agent: backup_recent/07a_autogen_microsoft/06_human_in_the_loop/console_chat_agent.md
+    - 07_termination: backup_recent/07a_autogen_microsoft/07_termination.md
     - 07a_autogen_microsoft: backup_recent/07a_autogen_microsoft/07a_autogen_microsoft.md
-    - 07_termination.md: backup_recent/07a_autogen_microsoft/07_termination.md
-    - 08_managing_state.md: backup_recent/07a_autogen_microsoft/08_managing_state.md
+    - 08_managing_state: backup_recent/07a_autogen_microsoft/08_managing_state.md
     - 09_cutom_agent:
       - 09_cutom_agent: backup_recent/07a_autogen_microsoft/09_cutom_agent/09_cutom_agent.md
-      - reasoning_agent.md: backup_recent/07a_autogen_microsoft/09_cutom_agent/reasoning_agent.md
+      - reasoning_agent: backup_recent/07a_autogen_microsoft/09_cutom_agent/reasoning_agent.md
+    - 10_selector_group_chat:
       - 10_selector_group_chat: backup_recent/07a_autogen_microsoft/10_selector_group_chat/10_selector_group_chat.md
-      - enterprise_research_group.md: backup_recent/07a_autogen_microsoft/10_selector_group_chat/enterprise_research_group.md
+      - enterprise_research_group: backup_recent/07a_autogen_microsoft/10_selector_group_chat/enterprise_research_group.md
+    - 11_design_patterns:
       - 11_design_patterns: backup_recent/07a_autogen_microsoft/11_design_patterns/11_design_patterns.md
-      - openai_swarm.md: backup_recent/07a_autogen_microsoft/11_design_patterns/11_design_patterns_openai_swarm.md
-      - teams_impl.md: backup_recent/07a_autogen_microsoft/11_design_patterns/11_design_patterns_teams_impl.md
-      - patterns_code.md: backup_recent/07a_autogen_microsoft/11_design_patterns/patterns_code.md
-    - 12_memory.md: backup_recent/07a_autogen_microsoft/12_memory.md
-    - 13_serializing_components.md: backup_recent/07a_autogen_microsoft/13_serializing_components.md
-    - 14_examples.md: backup_recent/07a_autogen_microsoft/14_examples.md
+      - 11_design_patterns_openai_swarm: backup_recent/07a_autogen_microsoft/11_design_patterns/11_design_patterns_openai_swarm.md
+      - 11_design_patterns_teams_impl: backup_recent/07a_autogen_microsoft/11_design_patterns/11_design_patterns_teams_impl.md
+      - patterns_code: backup_recent/07a_autogen_microsoft/11_design_patterns/patterns_code.md
+    - 12_memory: backup_recent/07a_autogen_microsoft/12_memory.md
+    - 13_serializing_components: backup_recent/07a_autogen_microsoft/13_serializing_components.md
+    - 14_examples: backup_recent/07a_autogen_microsoft/14_examples.md
+  - 07b_crew_ai:
     - 01_intro:
       - 00_python_decorators:
         - 00_python_decorators: backup_recent/07b_crew_ai/01_intro/00_python_decorators/00_python_decorators.md
-        - myproject.md: backup_recent/07b_crew_ai/01_intro/00_python_decorators/myproject.md
+        - myproject: backup_recent/07b_crew_ai/01_intro/00_python_decorators/myproject.md
+      - 01_chatgpt:
         - 01_chatgpt: backup_recent/07b_crew_ai/01_intro/01_chatgpt/01_chatgpt.md
-        - my_new_flow.md: backup_recent/07b_crew_ai/01_intro/01_chatgpt/my_new_flow.md
+        - my_new_flow: backup_recent/07b_crew_ai/01_intro/01_chatgpt/my_new_flow.md
       - 01_intro: backup_recent/07b_crew_ai/01_intro/01_intro.md
       - 02_gemini:
         - 02_gemini: backup_recent/07b_crew_ai/01_intro/02_gemini/02_gemini.md
-        - my_new_flow.md: backup_recent/07b_crew_ai/01_intro/02_gemini/my_new_flow.md
-    - 02_crew_ai_core_primitives.md: backup_recent/07b_crew_ai/02_crew_ai_core_primitives.md
+        - my_new_flow: backup_recent/07b_crew_ai/01_intro/02_gemini/my_new_flow.md
+    - 02_crew_ai_core_primitives: backup_recent/07b_crew_ai/02_crew_ai_core_primitives.md
     - 03_flows_patterns:
       - 01_prompt_chaining:
-        - prompt_chaining.md: backup_recent/07b_crew_ai/03_flows_patterns/01_prompt_chaining/prompt_chaining.md
+        - prompt_chaining: backup_recent/07b_crew_ai/03_flows_patterns/01_prompt_chaining/prompt_chaining.md
       - 03_flows_patterns: backup_recent/07b_crew_ai/03_flows_patterns/03_flows_patterns.md
+    - 04_crews_agents_tasks:
       - 01_crews:
         - 01_crews: backup_recent/07b_crew_ai/04_crews_agents_tasks/01_crews/01_crews.md
         - flows:
-          - project1.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/01_crews/flows/project1.md
-      - 02_agents.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/02_agents.md
-      - 03_tasks.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/03_tasks.md
+          - project1: backup_recent/07b_crew_ai/04_crews_agents_tasks/01_crews/flows/project1.md
+      - 02_agents: backup_recent/07b_crew_ai/04_crews_agents_tasks/02_agents.md
+      - 03_tasks: backup_recent/07b_crew_ai/04_crews_agents_tasks/03_tasks.md
       - code_examples_crewai:
-        - 01litellm.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/01litellm.md
-        - 02localllm.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/02localllm.md
-        - 03multiple_agents.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/03multiple_agents.md
-        - 04multiple_agents-with-two-llms-4.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/04multiple_agents-with-two-llms-4.md
-        - 05knowldge5.md: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/05knowldge5.md
+        - 01litellm: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/01litellm.md
+        - 02localllm: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/02localllm.md
+        - 03multiple_agents: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/03multiple_agents.md
+        - 04multiple_agents-with-two-llms-4: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/04multiple_agents-with-two-llms-4.md
+        - 05knowldge5: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/05knowldge5.md
         - code_examples_crewai: backup_recent/07b_crew_ai/04_crews_agents_tasks/code_examples_crewai/code_examples_crewai.md
-        - 01litellm.md: backup_recent/07b_crew_ai/05_augmented_llms/01_llms/01litellm.md
-        - litellm for augmented llm.md: backup_recent/07b_crew_ai/05_augmented_llms/01_llms/01_llms_litellm
+    - 05_augmented_llms:
+      - 01_llms:
+        - 01_llms_litellm for augmented llm: backup_recent/07b_crew_ai/05_augmented_llms/01_llms/01_llms_litellm
             for augmented llm.md
-      - 02_knowledge.md: backup_recent/07b_crew_ai/05_augmented_llms/02_knowledge.md
-      - 03_memory.md: backup_recent/07b_crew_ai/05_augmented_llms/03_memory.md
-      - 04_tools.md: backup_recent/07b_crew_ai/05_augmented_llms/04_tools.md
-    - 06_processes.md: backup_recent/07b_crew_ai/06_processes.md
+        - 01litellm: backup_recent/07b_crew_ai/05_augmented_llms/01_llms/01litellm.md
+      - 02_knowledge: backup_recent/07b_crew_ai/05_augmented_llms/02_knowledge.md
+      - 03_memory: backup_recent/07b_crew_ai/05_augmented_llms/03_memory.md
+      - 04_tools: backup_recent/07b_crew_ai/05_augmented_llms/04_tools.md
+    - 06_processes: backup_recent/07b_crew_ai/06_processes.md
+    - 07_collaboration: backup_recent/07b_crew_ai/07_collaboration.md
     - 07b_crew_ai: backup_recent/07b_crew_ai/07b_crew_ai.md
-    - 07_collaboration.md: backup_recent/07b_crew_ai/07_collaboration.md
-    - 08_training.md: backup_recent/07b_crew_ai/08_training.md
-    - 09_planning.md: backup_recent/07b_crew_ai/09_planning.md
-    - 10_deployment.md: backup_recent/07b_crew_ai/10_deployment.md
-    - 11_testing.md: backup_recent/07b_crew_ai/11_testing.md
+    - 08_training: backup_recent/07b_crew_ai/08_training.md
+    - 09_planning: backup_recent/07b_crew_ai/09_planning.md
+    - 10_deployment: backup_recent/07b_crew_ai/10_deployment.md
+    - 11_testing: backup_recent/07b_crew_ai/11_testing.md
     - 12_monitoring:
       - 12_monitoring: backup_recent/07b_crew_ai/12_monitoring/12_monitoring.md
       - monitoring_cr:
         - monitoring_cr: backup_recent/07b_crew_ai/12_monitoring/monitoring_cr/monitoring_cr.md
-        - report.md: backup_recent/07b_crew_ai/12_monitoring/monitoring_cr/monitoring_cr_report.md
-    - 13_openai_swarm_design_patterns.md: backup_recent/07b_crew_ai/13_openai_swarm_design_patterns.md
+        - monitoring_cr_report: backup_recent/07b_crew_ai/12_monitoring/monitoring_cr/monitoring_cr_report.md
+    - 13_openai_swarm_design_patterns: backup_recent/07b_crew_ai/13_openai_swarm_design_patterns.md
     - 14_flows_examples:
       - 00_poem_flow_pure_python:
         - 00_poem_flow_pure_python: backup_recent/07b_crew_ai/14_flows_examples/00_poem_flow_pure_python/00_poem_flow_pure_python.md
-        - poemflow.md: backup_recent/07b_crew_ai/14_flows_examples/00_poem_flow_pure_python/poemflow.md
-      - 01_email_auto_responder_flow.md: backup_recent/07b_crew_ai/14_flows_examples/01_email_auto_responder_flow.md
-      - 02_lead-score-flow.md: backup_recent/07b_crew_ai/14_flows_examples/02_lead-score-flow.md
-      - 03_write_a_book_with_flows.md: backup_recent/07b_crew_ai/14_flows_examples/03_write_a_book_with_flows.md
-      - 04_meeting_assistant_flow.md: backup_recent/07b_crew_ai/14_flows_examples/04_meeting_assistant_flow.md
-      - 05_self_evaluation_loop_flow.md: backup_recent/07b_crew_ai/14_flows_examples/05_self_evaluation_loop_flow.md
-      - 06_chatbot.md: backup_recent/07b_crew_ai/14_flows_examples/06_chatbot.md
-      - 07_flows_feedback_loop.md: backup_recent/07b_crew_ai/14_flows_examples/07_flows_feedback_loop.md
-    - 15_payment_agent.md: backup_recent/07b_crew_ai/15_payment_agent.md
-    - 16_security.md: backup_recent/07b_crew_ai/16_security.md
-    - 17_ai_agent_from_scratch.md: backup_recent/07b_crew_ai/17_ai_agent_from_scratch.md
-    - 18_agentic_ai_app.md: backup_recent/07b_crew_ai/18_agentic_ai_app.md
-    - 19_crash_course.md: backup_recent/07b_crew_ai/19_crash_course.md
-    - 20_noob_vs-pro_tools.md: backup_recent/07b_crew_ai/20_noob_vs-pro_tools.md
-    - 21_voice_ai.md: backup_recent/07b_crew_ai/21_voice_ai.md
-    - 22_human-input-on-execution.md: backup_recent/07b_crew_ai/22_human-input-on-execution.md
+        - poemflow: backup_recent/07b_crew_ai/14_flows_examples/00_poem_flow_pure_python/poemflow.md
+      - 01_email_auto_responder_flow: backup_recent/07b_crew_ai/14_flows_examples/01_email_auto_responder_flow.md
+      - 02_lead-score-flow: backup_recent/07b_crew_ai/14_flows_examples/02_lead-score-flow.md
+      - 03_write_a_book_with_flows: backup_recent/07b_crew_ai/14_flows_examples/03_write_a_book_with_flows.md
+      - 04_meeting_assistant_flow: backup_recent/07b_crew_ai/14_flows_examples/04_meeting_assistant_flow.md
+      - 05_self_evaluation_loop_flow: backup_recent/07b_crew_ai/14_flows_examples/05_self_evaluation_loop_flow.md
+      - 06_chatbot: backup_recent/07b_crew_ai/14_flows_examples/06_chatbot.md
+      - 07_flows_feedback_loop: backup_recent/07b_crew_ai/14_flows_examples/07_flows_feedback_loop.md
+    - 15_payment_agent: backup_recent/07b_crew_ai/15_payment_agent.md
+    - 16_security: backup_recent/07b_crew_ai/16_security.md
+    - 17_ai_agent_from_scratch: backup_recent/07b_crew_ai/17_ai_agent_from_scratch.md
+    - 18_agentic_ai_app: backup_recent/07b_crew_ai/18_agentic_ai_app.md
+    - 19_crash_course: backup_recent/07b_crew_ai/19_crash_course.md
+    - 20_noob_vs-pro_tools: backup_recent/07b_crew_ai/20_noob_vs-pro_tools.md
+    - 21_voice_ai: backup_recent/07b_crew_ai/21_voice_ai.md
+    - 22_human-input-on-execution: backup_recent/07b_crew_ai/22_human-input-on-execution.md
     - backup:
-      - 21_agentic_rag.md: backup_recent/07b_crew_ai/backup/21_agentic_rag.md
+      - 21_agentic_rag: backup_recent/07b_crew_ai/backup/21_agentic_rag.md
       - 21_human_input:
-        - readmd.md: backup_recent/07b_crew_ai/backup/21_human_input/21_human_input_readmd.md
-      - 22_planning.md: backup_recent/07b_crew_ai/backup/22_planning.md
-      - 23_testing.md: backup_recent/07b_crew_ai/backup/23_testing.md
-      - 24_deployment.md: backup_recent/07b_crew_ai/backup/24_deployment.md
-      - 25_observability.md: backup_recent/07b_crew_ai/backup/25_observability.md
-      - 26_chatbots_flows.md: backup_recent/07b_crew_ai/backup/26_chatbots_flows.md
+        - 21_human_input_readmd: backup_recent/07b_crew_ai/backup/21_human_input/21_human_input_readmd.md
+      - 22_planning: backup_recent/07b_crew_ai/backup/22_planning.md
+      - 23_testing: backup_recent/07b_crew_ai/backup/23_testing.md
+      - 24_deployment: backup_recent/07b_crew_ai/backup/24_deployment.md
+      - 25_observability: backup_recent/07b_crew_ai/backup/25_observability.md
+      - 26_chatbots_flows: backup_recent/07b_crew_ai/backup/26_chatbots_flows.md
       - 27_fullstack_nextjs_basic:
-        - readmd.md: backup_recent/07b_crew_ai/backup/27_fullstack_nextjs_basic/27_fullstack_nextjs_basic_readmd.md
-      - 28_fullstack_nextjs_advanced.md: backup_recent/07b_crew_ai/backup/28_fullstack_nextjs_advanced.md
-      - 29_knowledge_graph.md: backup_recent/07b_crew_ai/backup/29_knowledge_graph.md
-      - 30_text_to_cypher_agent.md: backup_recent/07b_crew_ai/backup/30_text_to_cypher_agent.md
-      - 31_latest_updates.md: backup_recent/07b_crew_ai/backup/31_latest_updates.md
+        - 27_fullstack_nextjs_basic_readmd: backup_recent/07b_crew_ai/backup/27_fullstack_nextjs_basic/27_fullstack_nextjs_basic_readmd.md
+      - 28_fullstack_nextjs_advanced: backup_recent/07b_crew_ai/backup/28_fullstack_nextjs_advanced.md
+      - 29_knowledge_graph: backup_recent/07b_crew_ai/backup/29_knowledge_graph.md
+      - 30_text_to_cypher_agent: backup_recent/07b_crew_ai/backup/30_text_to_cypher_agent.md
+      - 31_latest_updates: backup_recent/07b_crew_ai/backup/31_latest_updates.md
+  - 07c_langgraph_functional_api:
+    - 00_fun_fact_city:
       - 00_fun_fact_city: backup_recent/07c_langgraph_functional_api/00_fun_fact_city/00_fun_fact_city.md
-      - fun_fact_city.md: backup_recent/07c_langgraph_functional_api/00_fun_fact_city/fun_fact_city.md
+      - fun_fact_city: backup_recent/07c_langgraph_functional_api/00_fun_fact_city/fun_fact_city.md
+    - 01_poem_flow:
       - 01_poem_flow: backup_recent/07c_langgraph_functional_api/01_poem_flow/01_poem_flow.md
-      - poem_flow.md: backup_recent/07c_langgraph_functional_api/01_poem_flow/poem_flow.md
-    - 02_concepts.md: backup_recent/07c_langgraph_functional_api/02_concepts.md
+      - poem_flow: backup_recent/07c_langgraph_functional_api/01_poem_flow/poem_flow.md
+    - 02_concepts: backup_recent/07c_langgraph_functional_api/02_concepts.md
     - 03_design_patterns:
       - 03_design_patterns: backup_recent/07c_langgraph_functional_api/03_design_patterns/03_design_patterns.md
-      - augmented_llm.md: backup_recent/07c_langgraph_functional_api/03_design_patterns/augmented_llm.md
+      - augmented_llm: backup_recent/07c_langgraph_functional_api/03_design_patterns/augmented_llm.md
+    - 04_prompt_chaining_pattern:
       - 04_prompt_chaining_pattern: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/04_prompt_chaining_pattern.md
-      - customer_support_email_composer.md: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/customer_support_email_composer.md
+      - customer_support_email_composer: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/customer_support_email_composer.md
       - multilingual_marketing_copy:
         - multilingual_marketing_copy: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/multilingual_marketing_copy/multilingual_marketing_copy.md
         - output:
-          - marketing_copy.md: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/multilingual_marketing_copy/output/output_marketing_copy.md
-          - recipe.md: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/recipe_generator/output/output_recipe.md
+          - output_marketing_copy: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/multilingual_marketing_copy/output/output_marketing_copy.md
+      - recipe_generator:
+        - output:
+          - output_recipe: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/recipe_generator/output/output_recipe.md
         - recipe_generator: backup_recent/07c_langgraph_functional_api/04_prompt_chaining_pattern/recipe_generator/recipe_generator.md
+    - 05_parallelization_pattern:
       - 05_parallelization_pattern: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/05_parallelization_pattern.md
-      - hello_parallel.md: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/hello_parallel.md
+      - hello_parallel: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/hello_parallel.md
       - prompt_evaluator:
         - output:
-          - final_evaluation_report.md: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/prompt_evaluator/output/output_final_evaluation_report.md
+          - output_final_evaluation_report: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/prompt_evaluator/output/output_final_evaluation_report.md
         - prompt_evaluator: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/prompt_evaluator/prompt_evaluator.md
-      - travel_itinerary.md: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/travel_itinerary.md
+      - travel_itinerary: backup_recent/07c_langgraph_functional_api/05_parallelization_pattern/travel_itinerary.md
+    - 06_routing_pattern:
       - 06_routing_pattern: backup_recent/07c_langgraph_functional_api/06_routing_pattern/06_routing_pattern.md
-      - assistant_selector.md: backup_recent/07c_langgraph_functional_api/06_routing_pattern/assistant_selector.md
-      - customer_support_request.md: backup_recent/07c_langgraph_functional_api/06_routing_pattern/customer_support_request.md
-    - 07c_langgraph_functional_api: backup_recent/07c_langgraph_functional_api/07c_langgraph_functional_api.md
+      - assistant_selector: backup_recent/07c_langgraph_functional_api/06_routing_pattern/assistant_selector.md
+      - customer_support_request: backup_recent/07c_langgraph_functional_api/06_routing_pattern/customer_support_request.md
     - 07_orchestrator_worker_pattern:
       - 07_orchestrator_worker_pattern: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/07_orchestrator_worker_pattern.md
-      - personalized_health_and_fitness_plan_generator.md: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/personalized_health_and_fitness_plan_generator.md
+      - personalized_health_and_fitness_plan_generator: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/personalized_health_and_fitness_plan_generator.md
       - workflow_evaluator:
         - output:
-          - evaluation_report.md: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/workflow_evaluator/output/output_evaluation_report.md
+          - output_evaluation_report: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/workflow_evaluator/output/output_evaluation_report.md
         - workflow_evaluator: backup_recent/07c_langgraph_functional_api/07_orchestrator_worker_pattern/workflow_evaluator/workflow_evaluator.md
+    - 07c_langgraph_functional_api: backup_recent/07c_langgraph_functional_api/07c_langgraph_functional_api.md
+    - 08_evaluator_optimizer:
       - 08_evaluator_optimizer: backup_recent/07c_langgraph_functional_api/08_evaluator_optimizer/08_evaluator_optimizer.md
-      - poem_flow.md: backup_recent/07c_langgraph_functional_api/08_evaluator_optimizer/poem_flow.md
+      - poem_flow: backup_recent/07c_langgraph_functional_api/08_evaluator_optimizer/poem_flow.md
+    - 09_agent_building_blocks:
       - 01_react_agent:
         - 01_react_agent: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/01_react_agent/01_react_agent.md
-        - react-agent.md: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/01_react_agent/react-agent.md
-      - 02_agentic_rag.md: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/02_agentic_rag.md
-      - 03_reflection.md: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/03_reflection.md
-      - 04_planning.md: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/04_planning.md
+        - react-agent: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/01_react_agent/react-agent.md
+      - 02_agentic_rag: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/02_agentic_rag.md
+      - 03_reflection: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/03_reflection.md
+      - 04_planning: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/04_planning.md
       - 09_agent_building_blocks: backup_recent/07c_langgraph_functional_api/09_agent_building_blocks/09_agent_building_blocks.md
+    - 10a_deployment:
       - 10a_deployment: backup_recent/07c_langgraph_functional_api/10a_deployment/10a_deployment.md
-      - langgraph_demo.md: backup_recent/07c_langgraph_functional_api/10a_deployment/langgraph_demo.md
-      - lg_dev_mode.md: backup_recent/07c_langgraph_functional_api/10a_deployment/lg_dev_mode.md
-    - 10b_ observability_and_evaluations.md: backup_recent/07c_langgraph_functional_api/10b_
+      - langgraph_demo: backup_recent/07c_langgraph_functional_api/10a_deployment/langgraph_demo.md
+      - lg_dev_mode: backup_recent/07c_langgraph_functional_api/10a_deployment/lg_dev_mode.md
+    - 10b_ observability_and_evaluations: backup_recent/07c_langgraph_functional_api/10b_
         observability_and_evaluations.md
-    - 11_email_auto_responder_flow.md: backup_recent/07c_langgraph_functional_api/11_email_auto_responder_flow.md
-    - 12_lead-score-flow.md: backup_recent/07c_langgraph_functional_api/12_lead-score-flow.md
-    - 13_write_a_book_with_flows.md: backup_recent/07c_langgraph_functional_api/13_write_a_book_with_flows.md
-    - 14_meeting_assistant_flow.md: backup_recent/07c_langgraph_functional_api/14_meeting_assistant_flow.md
-    - 15_self_evaluation_loop_flow.md: backup_recent/07c_langgraph_functional_api/15_self_evaluation_loop_flow.md
-    - 16_chatbot.md: backup_recent/07c_langgraph_functional_api/16_chatbot.md
-    - 17_payment_agent.md: backup_recent/07c_langgraph_functional_api/17_payment_agent.md
+    - 11_email_auto_responder_flow: backup_recent/07c_langgraph_functional_api/11_email_auto_responder_flow.md
+    - 12_lead-score-flow: backup_recent/07c_langgraph_functional_api/12_lead-score-flow.md
+    - 13_write_a_book_with_flows: backup_recent/07c_langgraph_functional_api/13_write_a_book_with_flows.md
+    - 14_meeting_assistant_flow: backup_recent/07c_langgraph_functional_api/14_meeting_assistant_flow.md
+    - 15_self_evaluation_loop_flow: backup_recent/07c_langgraph_functional_api/15_self_evaluation_loop_flow.md
+    - 16_chatbot: backup_recent/07c_langgraph_functional_api/16_chatbot.md
+    - 17_payment_agent: backup_recent/07c_langgraph_functional_api/17_payment_agent.md
     - 18_langchain_ecosystem:
       - 18_langchain_ecosystem: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/18_langchain_ecosystem.md
-      - bidirectional_chatbots.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/bidirectional_chatbots.md
-      - hybrid_ui.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/hybrid_ui.md
+      - bidirectional_chatbots: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/bidirectional_chatbots.md
+      - hybrid_ui: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/hybrid_ui.md
       - langchain:
-        - 00_gemini_langchain.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/00_gemini_langchain.md
-        - -01_gemini_standalone.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/-01_gemini_standalone.md
-        - for_llm_application_development_deepLearningAI.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/langChain_for_llm_application_development_deepLearningAI.md
+        - -01_gemini_standalone: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/-01_gemini_standalone.md
+        - 00_gemini_langchain: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/00_gemini_langchain.md
+        - langChain_for_llm_application_development_deepLearningAI: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/langChain_for_llm_application_development_deepLearningAI.md
         - langchain: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langchain/langchain.md
+      - langgraph:
         - AGENTIC_PROJECTS:
           - 00_chat_agent:
-            - requirements.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/00_chat_agent/00_chat_agent_requirements.md
-            - requirements.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/01_human_interactions/01_human_interactions_requirements.md
-            - requirements.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/02_browsing_ai_agent/02_browsing_ai_agent_requirements.md
+            - 00_chat_agent_requirements: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/00_chat_agent/00_chat_agent_requirements.md
+          - 01_human_interactions:
+            - 01_human_interactions_requirements: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/01_human_interactions/01_human_interactions_requirements.md
+          - 02_browsing_ai_agent:
+            - 02_browsing_ai_agent_requirements: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/02_browsing_ai_agent/02_browsing_ai_agent_requirements.md
           - AGENTIC_PROJECTS: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/AGENTIC_PROJECTS/AGENTIC_PROJECTS.md
-        - chatbot.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/chatbot.md
-        - course-notebooks.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/course-notebooks.md
-        - langgraph_easy_tutorial:
-          - 01_gemini_2_mutimodal_text_live_api_helloworld.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/01_gemini_2_mutimodal_text_live_api_helloworld.md
-          - 02_gemini_2_live_api_multimodal_audio_helloworld.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/02_gemini_2_live_api_multimodal_audio_helloworld.md
-          - 03_gemini_2_live_api_tools.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/03_gemini_2_live_api_tools.md
-          - langgraph_easy_tutorial: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/langgraph_easy_tutorial.md
+        - chatbot: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/chatbot.md
+        - course-notebooks: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/course-notebooks.md
         - langgraph: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph.md
+        - langgraph_easy_tutorial:
+          - 01_gemini_2_mutimodal_text_live_api_helloworld: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/01_gemini_2_mutimodal_text_live_api_helloworld.md
+          - 02_gemini_2_live_api_multimodal_audio_helloworld: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/02_gemini_2_live_api_multimodal_audio_helloworld.md
+          - 03_gemini_2_live_api_tools: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/03_gemini_2_live_api_tools.md
+          - langgraph_easy_tutorial: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/langgraph_easy_tutorial/langgraph_easy_tutorial.md
         - projects:
-          - 00_text_analysis_pipeline.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/00_text_analysis_pipeline.md
-          - 01_customer_support_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/01_customer_support_agent.md
-          - 02_essay_grading_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/02_essay_grading_agent.md
-          - 03_travel_planning_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/03_travel_planning_agent.md
-          - 04_gif_animation_generator_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/04_gif_animation_generator_agent.md
-          - 05_tts_poem_generator_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/05_tts_poem_generator_agent.md
-          - 06_music_compositor_agent.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/06_music_compositor_agent.md
-          - 07_quiz_system.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/07_quiz_system.md
-          - 08_github_book.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/08_github_book.md
+          - 00_text_analysis_pipeline: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/00_text_analysis_pipeline.md
+          - 01_customer_support_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/01_customer_support_agent.md
+          - 02_essay_grading_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/02_essay_grading_agent.md
+          - 03_travel_planning_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/03_travel_planning_agent.md
+          - 04_gif_animation_generator_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/04_gif_animation_generator_agent.md
+          - 05_tts_poem_generator_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/05_tts_poem_generator_agent.md
+          - 06_music_compositor_agent: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/06_music_compositor_agent.md
+          - 07_quiz_system: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/07_quiz_system.md
+          - 08_github_book: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/08_github_book.md
           - projects: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langgraph/projects/projects.md
-      - langsmith.md: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langsmith.md
-      - chatbot:
-        - chainlit.md: backup_recent/08a_autogen_conversational_ai/00_single_agent/chatbot/chatbot_chainlit.md
-        - chatbot: backup_recent/08a_autogen_conversational_ai/00_single_agent/chatbot/chatbot.md
-        - chainlit.md: backup_recent/08a_autogen_conversational_ai/01_agent_team/chatbot/chatbot_chainlit.md
-        - chatbot: backup_recent/08a_autogen_conversational_ai/01_agent_team/chatbot/chatbot.md
-    - 08a_autogen_conversational_ai: backup_recent/08a_autogen_conversational_ai/08a_autogen_conversational_ai.md
-  - 08b_crewai_conversational_ai.md: backup_recent/08b_crewai_conversational_ai.md
-  - 08c_langgraph_conversational_ai.md: backup_recent/08c_langgraph_conversational_ai.md
+      - langsmith: backup_recent/07c_langgraph_functional_api/18_langchain_ecosystem/langsmith.md
   - 08_coversational_agentic_ai:
-    - education.md: backup_recent/08_coversational_agentic_ai/08_coversational_agentic_ai_education.md
     - 08_coversational_agentic_ai: backup_recent/08_coversational_agentic_ai/08_coversational_agentic_ai.md
-    - prediction.md: backup_recent/08_coversational_agentic_ai/08_coversational_agentic_ai_prediction.md
-  - 09a_mcp_autogen.md: backup_recent/09a_mcp_autogen.md
-  - 09b_mcp_crewai.md: backup_recent/09b_mcp_crewai.md
-  - 09c_mcp_langgraph.md: backup_recent/09c_mcp_langgraph.md
-  - 10a_agentops_autogen.md: backup_recent/10a_agentops_autogen.md
-  - 10b_agentops_crewai.md: backup_recent/10b_agentops_crewai.md
-  - 10c_agentops_langgraph.md: backup_recent/10c_agentops_langgraph.md
+    - 08_coversational_agentic_ai_education: backup_recent/08_coversational_agentic_ai/08_coversational_agentic_ai_education.md
+    - 08_coversational_agentic_ai_prediction: backup_recent/08_coversational_agentic_ai/08_coversational_agentic_ai_prediction.md
+  - 08a_autogen_conversational_ai:
+    - 00_single_agent:
+      - chatbot:
+        - chatbot: backup_recent/08a_autogen_conversational_ai/00_single_agent/chatbot/chatbot.md
+        - chatbot_chainlit: backup_recent/08a_autogen_conversational_ai/00_single_agent/chatbot/chatbot_chainlit.md
+    - 01_agent_team:
+      - chatbot:
+        - chatbot: backup_recent/08a_autogen_conversational_ai/01_agent_team/chatbot/chatbot.md
+        - chatbot_chainlit: backup_recent/08a_autogen_conversational_ai/01_agent_team/chatbot/chatbot_chainlit.md
+    - 08a_autogen_conversational_ai: backup_recent/08a_autogen_conversational_ai/08a_autogen_conversational_ai.md
+  - 08b_crewai_conversational_ai: backup_recent/08b_crewai_conversational_ai.md
+  - 08c_langgraph_conversational_ai: backup_recent/08c_langgraph_conversational_ai.md
+  - 09a_mcp_autogen: backup_recent/09a_mcp_autogen.md
+  - 09b_mcp_crewai: backup_recent/09b_mcp_crewai.md
+  - 09c_mcp_langgraph: backup_recent/09c_mcp_langgraph.md
+  - 10a_agentops_autogen: backup_recent/10a_agentops_autogen.md
+  - 10b_agentops_crewai: backup_recent/10b_agentops_crewai.md
+  - 10c_agentops_langgraph: backup_recent/10c_agentops_langgraph.md
   - 12_langchain_ecosystem:
     - langchain:
-      - 00_gemini_langchain.md: backup_recent/12_langchain_ecosystem/langchain/00_gemini_langchain.md
-      - -01_gemini_standalone.md: backup_recent/12_langchain_ecosystem/langchain/-01_gemini_standalone.md
+      - -01_gemini_standalone: backup_recent/12_langchain_ecosystem/langchain/-01_gemini_standalone.md
+      - 00_gemini_langchain: backup_recent/12_langchain_ecosystem/langchain/00_gemini_langchain.md
+    - langgraph:
       - langgraph_easy_tutorial:
-        - 01_gemini_2_mutimodal_text_live_api_helloworld.md: backup_recent/12_langchain_ecosystem/langgraph/langgraph_easy_tutorial/01_gemini_2_mutimodal_text_live_api_helloworld.md
-        - 02_gemini_2_live_api_multimodal_audio_helloworld.md: backup_recent/12_langchain_ecosystem/langgraph/langgraph_easy_tutorial/02_gemini_2_live_api_multimodal_audio_helloworld.md
+        - 01_gemini_2_mutimodal_text_live_api_helloworld: backup_recent/12_langchain_ecosystem/langgraph/langgraph_easy_tutorial/01_gemini_2_mutimodal_text_live_api_helloworld.md
+        - 02_gemini_2_live_api_multimodal_audio_helloworld: backup_recent/12_langchain_ecosystem/langgraph/langgraph_easy_tutorial/02_gemini_2_live_api_multimodal_audio_helloworld.md
         - langgraph_easy_tutorial: backup_recent/12_langchain_ecosystem/langgraph/langgraph_easy_tutorial/langgraph_easy_tutorial.md
-        - 00_text_analysis_pipeline.md: backup_recent/12_langchain_ecosystem/langgraph/projects/00_text_analysis_pipeline.md
-        - 01_customer_support_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/01_customer_support_agent.md
-        - 02_essay_grading_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/02_essay_grading_agent.md
-        - 03_travel_planning_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/03_travel_planning_agent.md
-        - 04_gif_animation_generator_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/04_gif_animation_generator_agent.md
-        - 05_tts_poem_generator_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/05_tts_poem_generator_agent.md
-        - 06_music_compositor_agent.md: backup_recent/12_langchain_ecosystem/langgraph/projects/06_music_compositor_agent.md
+      - projects:
+        - 00_text_analysis_pipeline: backup_recent/12_langchain_ecosystem/langgraph/projects/00_text_analysis_pipeline.md
+        - 01_customer_support_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/01_customer_support_agent.md
+        - 02_essay_grading_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/02_essay_grading_agent.md
+        - 03_travel_planning_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/03_travel_planning_agent.md
+        - 04_gif_animation_generator_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/04_gif_animation_generator_agent.md
+        - 05_tts_poem_generator_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/05_tts_poem_generator_agent.md
+        - 06_music_compositor_agent: backup_recent/12_langchain_ecosystem/langgraph/projects/06_music_compositor_agent.md
         - projects: backup_recent/12_langchain_ecosystem/langgraph/projects/projects.md
-  - 14_realtime_voice.md: backup_recent/14_realtime_voice.md
+  - 14_realtime_voice: backup_recent/14_realtime_voice.md
   - AGENT_PROTOTYPES:
-    - appointment-agent.md: backup_recent/AGENT_PROTOTYPES/appointment-agent.md
-  - xx_THREE_QUESTIONS.md: backup_recent/xx_THREE_QUESTIONS.md
-- learn-agentic-ai_comprehensive_guide_daca.md: learn-agentic-ai_comprehensive_guide_daca.md
-- learn-agentic-ai.md: learn-agentic-ai.md
-- learn-agentic-ai_raos.md: learn-agentic-ai_raos.md
+    - appointment-agent: backup_recent/AGENT_PROTOTYPES/appointment-agent.md
+  - xx_THREE_QUESTIONS: backup_recent/xx_THREE_QUESTIONS.md
+- learn-agentic-ai: learn-agentic-ai.md
+- learn-agentic-ai_comprehensive_guide_daca: learn-agentic-ai_comprehensive_guide_daca.md
+- learn-agentic-ai_raos: learn-agentic-ai_raos.md
 - other_material:
   - 01_prototype_to_production:
     - 00_prototyping:
-      - 00_jupyter_notebooks.md: other_material/01_prototype_to_production/00_prototyping/00_jupyter_notebooks.md
+      - 00_jupyter_notebooks: other_material/01_prototype_to_production/00_prototyping/00_jupyter_notebooks.md
       - 00_prototyping: other_material/01_prototype_to_production/00_prototyping/00_prototyping.md
       - 01_google_colab:
         - 01_google_colab: other_material/01_prototype_to_production/00_prototyping/01_google_colab/01_google_colab.md
-        - persistance.md: other_material/01_prototype_to_production/00_prototyping/01_google_colab/01_google_colab_persistance.md
-        - terminal.md: other_material/01_prototype_to_production/00_prototyping/01_google_colab/01_google_colab_terminal.md
-      - 02_ollama.md: other_material/01_prototype_to_production/00_prototyping/02_ollama.md
-      - 03_running_llama_3_1_on_colab.md: other_material/01_prototype_to_production/00_prototyping/03_running_llama_3_1_on_colab.md
-      - 04_Colab_Ollama_Ngrok_Tunnel_Remote.md: other_material/01_prototype_to_production/00_prototyping/04_Colab_Ollama_Ngrok_Tunnel_Remote.md
-      - 05_pyngrok.md: other_material/01_prototype_to_production/00_prototyping/05_pyngrok.md
-      - 06_langchain_llms.md: other_material/01_prototype_to_production/00_prototyping/06_langchain_llms.md
-      - 07_gemini_api.md: other_material/01_prototype_to_production/00_prototyping/07_gemini_api.md
-      - 08_huggingface_model.md: other_material/01_prototype_to_production/00_prototyping/08_huggingface_model.md
-      - 09_pricing.md: other_material/01_prototype_to_production/00_prototyping/09_pricing.md
+        - 01_google_colab_persistance: other_material/01_prototype_to_production/00_prototyping/01_google_colab/01_google_colab_persistance.md
+        - 01_google_colab_terminal: other_material/01_prototype_to_production/00_prototyping/01_google_colab/01_google_colab_terminal.md
+      - 02_ollama: other_material/01_prototype_to_production/00_prototyping/02_ollama.md
+      - 03_running_llama_3_1_on_colab: other_material/01_prototype_to_production/00_prototyping/03_running_llama_3_1_on_colab.md
+      - 04_Colab_Ollama_Ngrok_Tunnel_Remote: other_material/01_prototype_to_production/00_prototyping/04_Colab_Ollama_Ngrok_Tunnel_Remote.md
+      - 05_pyngrok: other_material/01_prototype_to_production/00_prototyping/05_pyngrok.md
+      - 06_langchain_llms: other_material/01_prototype_to_production/00_prototyping/06_langchain_llms.md
+      - 07_gemini_api: other_material/01_prototype_to_production/00_prototyping/07_gemini_api.md
+      - 08_huggingface_model: other_material/01_prototype_to_production/00_prototyping/08_huggingface_model.md
+      - 09_pricing: other_material/01_prototype_to_production/00_prototyping/09_pricing.md
     - 01_prototype_to_production: other_material/01_prototype_to_production/01_prototype_to_production.md
-    - dataclass.md: other_material/01_python_syntax/01_python_syntax_dataclass.md
+  - 01_python_syntax:
     - 01_python_syntax: other_material/01_python_syntax/01_python_syntax.md
-    - 00_buiding_own_agents.md: other_material/02_agi_level3_ai_agents/00_buiding_own_agents.md
+    - 01_python_syntax_dataclass: other_material/01_python_syntax/01_python_syntax_dataclass.md
+  - 02_agi_level3_ai_agents:
+    - 00_buiding_own_agents: other_material/02_agi_level3_ai_agents/00_buiding_own_agents.md
     - 02_agi_level3_ai_agents: other_material/02_agi_level3_ai_agents/02_agi_level3_ai_agents.md
-    - 00_local_llm.md: other_material/03_open_source_llms/00_local_llm.md
-    - 01_llama_stack.md: other_material/03_open_source_llms/01_llama_stack.md
-    - 02_groq.md: other_material/03_open_source_llms/02_groq.md
-    - 03_nvidia_nim_langchain.md: other_material/03_open_source_llms/03_nvidia_nim_langchain.md
-    - 04_improving_llm_accuracy.md: other_material/03_open_source_llms/04_improving_llm_accuracy.md
-    - 00_llm_powered_apis.md: other_material/04_openai_assistants_api/00_llm_powered_apis.md
-    - 01_prototype.md: other_material/04_openai_assistants_api/01_prototype.md
-    - 02_streaming_asyncronously_function_calling_fastapi.md: other_material/04_openai_assistants_api/02_streaming_asyncronously_function_calling_fastapi.md
-    - 03_challenge_project.md: other_material/04_openai_assistants_api/03_challenge_project.md
+  - 03_open_source_llms:
+    - 00_local_llm: other_material/03_open_source_llms/00_local_llm.md
+    - 01_llama_stack: other_material/03_open_source_llms/01_llama_stack.md
+    - 02_groq: other_material/03_open_source_llms/02_groq.md
+    - 03_nvidia_nim_langchain: other_material/03_open_source_llms/03_nvidia_nim_langchain.md
+    - 04_improving_llm_accuracy: other_material/03_open_source_llms/04_improving_llm_accuracy.md
+  - 04_openai_assistants_api:
+    - 00_llm_powered_apis: other_material/04_openai_assistants_api/00_llm_powered_apis.md
+    - 01_prototype: other_material/04_openai_assistants_api/01_prototype.md
+    - 02_streaming_asyncronously_function_calling_fastapi: other_material/04_openai_assistants_api/02_streaming_asyncronously_function_calling_fastapi.md
+    - 03_challenge_project: other_material/04_openai_assistants_api/03_challenge_project.md
     - 04_openai_assistants_api: other_material/04_openai_assistants_api/04_openai_assistants_api.md
+  - 05_other_agentic_frameworks:
     - 05_other_agentic_frameworks: other_material/05_other_agentic_frameworks/05_other_agentic_frameworks.md
-    - crew_ai.md: other_material/05_other_agentic_frameworks/crew_ai.md
-    - skyfire.md: other_material/05_other_agentic_frameworks/skyfire.md
-  - 06_lean_startup.md: other_material/06_lean_startup.md
-  - 07_ROS2.md: other_material/07_ROS2.md
-  - 08_latest_development.md: other_material/08_latest_development.md
+    - crew_ai: other_material/05_other_agentic_frameworks/crew_ai.md
+    - skyfire: other_material/05_other_agentic_frameworks/skyfire.md
+  - 06_lean_startup: other_material/06_lean_startup.md
+  - 07_ROS2: other_material/07_ROS2.md
+  - 08_latest_development: other_material/08_latest_development.md
   - 09_ray:
-    - readmd.md: other_material/09_ray/09_ray_readmd.md
-- STARTUPS.md: STARTUPS.md
-markdown_extensions:
-- toc:
-    permalink: true
-- pymdownx.highlight
-- pymdownx.superfences
+    - 09_ray_readmd: other_material/09_ray/09_ray_readmd.md
+docs_dir: docs
